@@ -37,13 +37,19 @@ YT_PATTERN = re.compile(
     r"([A-Za-z0-9_-]{11})"
 )
 
-session = requests.Session()
-session.headers.update({
-    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
-                   "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
-})
+# PTT 前面有 Cloudflare，會擋一般的程式連線。
+# curl_cffi 會模仿真正 Chrome 的連線特徵，比較容易被放行；沒裝的話退回 requests。
+try:
+    from curl_cffi import requests as cffi_requests
+    session = cffi_requests.Session(impersonate="chrome")
+    print("連線方式：curl_cffi（模仿 Chrome）")
+except ImportError:
+    session = requests.Session()
+    session.headers["User-Agent"] = (
+        "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+        "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36")
+    print("連線方式：requests")
+session.headers.update({"Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8"})
 session.cookies.set("over18", "1", domain="www.ptt.cc")
 session.cookies.set("over18", "1", domain=".ptt.cc")
 
@@ -67,7 +73,7 @@ def get(url, quiet=False, **kwargs):
             if not quiet:
                 print(f"  第 {attempt + 1} 次失敗：HTTP {r.status_code}，"
                       f"伺服器：{r.headers.get('server', '?')}，內容開頭：{r.text[:120]!r}")
-        except requests.RequestException as e:
+        except Exception as e:  # 連線錯誤（requests 或 curl_cffi）
             if not quiet:
                 print(f"  第 {attempt + 1} 次失敗：{type(e).__name__}：{str(e)[:150]}")
         time.sleep(2 * (attempt + 1))
