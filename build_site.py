@@ -39,14 +39,24 @@ def build():
     data = data.replace("</", "<\\/")  # 避免標題裡的 </script> 弄壞網頁
     updated = datetime.now(TW).strftime("%Y/%m/%d %H:%M")
 
-    html = (ROOT / "template.html").read_text(encoding="utf-8")
-    html = html.replace("__DATA__", data).replace("__UPDATED__", updated)
-
-    out = ROOT / "docs" / "index.html"
-    out.parent.mkdir(exist_ok=True)
-    out.write_text(html, encoding="utf-8")
+    template = (ROOT / "template.html").read_text(encoding="utf-8")
+    pages = {
+        # 全部影片：docs/index.html
+        "index.html": {"__TITLE__": "台股Tube", "__BADGE__": "", "__FIN_ONLY__": "false",
+                       "__SWITCH_URL__": "./finance.html", "__SWITCH_LABEL__": "💹 財經版"},
+        # 只看財經：docs/finance.html
+        "finance.html": {"__TITLE__": "台股Tube 財經版", "__BADGE__": "<small>財經版</small>",
+                         "__FIN_ONLY__": "true",
+                         "__SWITCH_URL__": "./", "__SWITCH_LABEL__": "🎬 看全部影片"},
+    }
+    (ROOT / "docs").mkdir(exist_ok=True)
+    for name, values in pages.items():
+        html = template.replace("__DATA__", data).replace("__UPDATED__", updated)
+        for k, v in values.items():
+            html = html.replace(k, v)
+        (ROOT / "docs" / name).write_text(html, encoding="utf-8")
     (ROOT / "docs" / ".nojekyll").write_text("")
-    print(f"已產生網站：{out}（{len(items)} 支影片）")
+    print(f"已產生網站：index.html、finance.html（共 {len(items)} 支影片）")
 
 
 if __name__ == "__main__":

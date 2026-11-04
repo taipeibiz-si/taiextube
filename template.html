@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>台股Tube</title>
+<title>__TITLE__</title>
 <meta name="description" content="PTT 股票板鄉民一直互相推薦的 YouTube 影片">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
@@ -38,7 +38,10 @@ nav.tabs{display:flex;gap:4px;padding:14px 0 6px;overflow-x:auto}
 nav.tabs button{border:none;background:none;color:var(--muted);font:inherit;font-weight:700;padding:6px 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
 nav.tabs button.on{background:var(--ink);color:var(--bg)}
 .tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:6px 0 12px}
-.tools input{flex:1;min-width:180px;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit}
+.tools input[type="search"]{flex:1;min-width:180px;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit}
+.fin{display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:8px 12px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;user-select:none}
+.fin{text-decoration:none;color:var(--accent);border-color:var(--accent)}
+.logo small{font-size:13px;margin-left:6px;padding:1px 7px;border-radius:6px;background:var(--accent);color:#fff;vertical-align:middle}
 .chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:12px}
 .chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:4px 12px;font-size:13px;cursor:pointer;white-space:nowrap}
 .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
@@ -79,7 +82,7 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
 <header>
   <div class="wrap">
     <div class="top">
-      <a class="logo" href="./">台股<b>Tube</b></a>
+      <a class="logo" href="./">台股<b>Tube</b>__BADGE__</a>
       <div class="tag">PTT 股票板鄉民一直互相推薦的 YouTube 影片</div>
       <button class="theme" id="theme" aria-label="切換深淺色">深／淺</button>
     </div>
@@ -97,6 +100,7 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
   </nav>
   <div class="tools">
     <input id="q" type="search" placeholder="搜尋標題或頻道，例如：台積電、ETF、存股">
+    <a class="fin" href="__SWITCH_URL__">__SWITCH_LABEL__</a>
   </div>
   <div class="chips" id="chips"></div>
   <div class="grid" id="grid"></div>
@@ -129,7 +133,13 @@ const store = {
   set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
 };
 let later = new Set(store.get("later")), watched = new Set(store.get("watched"));
-let state = {tab:"hot", q:"", cat:"全部", shown:60};
+let state = {tab:"hot", q:"", cat:"全部", shown:60, fin:__FIN_ONLY__};
+
+// 「只看財經」：排除非財經分類，以及標題看起來像音樂、MV 的影片
+const NON_FIN_CATS = new Set(["閒聊","創作","問卷","公告","其他"]);
+const MUSIC_RE = /(official\s*(music\s*)?video|official\s*audio|lyric|\bMV\b|\bM\/V\b|vevo|官方.{0,4}(MV|版)|歌詞|動態歌詞|翻唱|cover\b|karaoke|伴奏)/i;
+const isFin = v => !NON_FIN_CATS.has(v.category) && !MUSIC_RE.test(v.title+" "+(v.channel||""));
+const pool = () => state.fin ? DATA.filter(isFin) : DATA;
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
@@ -149,23 +159,25 @@ $("theme").onclick = () => {
 };
 
 // 跑馬燈：前五名
-$("ticker").innerHTML = DATA.slice(0,6).map((v,i) =>
+function drawTicker(){ $("ticker").innerHTML = pool().slice(0,6).map((v,i) =>
   `<span>#${i+1} ${esc(v.title.slice(0,18))}${v.title.length>18?"…":""} <b>▲${v.mentions.length}</b></span>`).join("")
-  || "<span>資料準備中</span>";
+  || "<span>資料準備中</span>"; }
 $("updated").textContent = UPDATED;
 if(!hasDur) document.querySelector('[data-tab="long"]').hidden = true;
 
 // 分類
-const cats = {};
-DATA.forEach(v => cats[v.category] = (cats[v.category]||0) + 1);
-const catList = ["全部", ...Object.keys(cats).sort((a,b)=>cats[b]-cats[a]).slice(0,12)];
+let cats = {}, catList = ["全部"];
 function drawChips(){
+  cats = {};
+  pool().forEach(v => cats[v.category] = (cats[v.category]||0) + 1);
+  catList = ["全部", ...Object.keys(cats).sort((a,b)=>cats[b]-cats[a]).slice(0,12)];
+  if(!catList.includes(state.cat)) state.cat = "全部";
   $("chips").innerHTML = catList.map(c =>
     `<button class="chip ${c===state.cat?"on":""}" data-cat="${esc(c)}">${esc(c)}${c==="全部"?"":" "+cats[c]}</button>`).join("");
 }
 
 function list(){
-  let arr = DATA.slice();
+  let arr = pool().slice();
   if(state.tab==="new") arr.sort((a,b)=> b.last_seen.localeCompare(a.last_seen));
   if(state.tab==="long") arr = arr.filter(v => v.duration >= 1200);
   if(state.tab==="later") arr = arr.filter(v => later.has(v.id));
@@ -177,7 +189,7 @@ function list(){
 }
 
 function card(v){
-  const rank = DATA.indexOf(v) + 1;
+  const rank = pool().indexOf(v) + 1;
   return `<article class="card ${watched.has(v.id)?"watched":""}">
     <button class="thumb" data-play="${v.id}" aria-label="播放 ${esc(v.title)}">
       <img loading="lazy" onerror="this.style.visibility='hidden'" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg" alt="">
@@ -238,6 +250,7 @@ $("close").onclick = closePlayer;
 $("dlg").addEventListener("click", e => { if(e.target===$("dlg")) closePlayer(); });
 $("dlg").addEventListener("cancel", () => { $("player").innerHTML=""; setTimeout(draw); });
 
+drawTicker();
 draw();
 </script>
 </body>
