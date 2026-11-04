@@ -38,14 +38,25 @@ YT_PATTERN = re.compile(
 )
 
 session = requests.Session()
-session.headers["User-Agent"] = "Mozilla/5.0 (compatible; StockTubeBot/1.0)"
+session.headers.update({
+    "User-Agent": ("Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 "
+                   "(KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36"),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "zh-TW,zh;q=0.9,en;q=0.8",
+})
 session.cookies.set("over18", "1", domain="www.ptt.cc")
+session.cookies.set("over18", "1", domain=".ptt.cc")
+
+# 如果 PTT 擋掉 GitHub 的機器，可以在 Secrets 設定 PTT_PROXY 走代理（例如 http://帳號:密碼@主機:埠）
+PROXY = os.environ.get("PTT_PROXY", "").strip()
+if PROXY:
+    session.proxies.update({"http": PROXY, "https": PROXY})
 
 
 # ---------- 工具 ----------
 
-def get(url, **kwargs):
-    """帶重試的 GET。"""
+def get(url, quiet=False, **kwargs):
+    """帶重試的 GET，失敗時印出原因方便除錯。"""
     for attempt in range(3):
         try:
             r = session.get(url, timeout=20, **kwargs)
@@ -53,8 +64,12 @@ def get(url, **kwargs):
                 return r
             if r.status_code == 404:
                 return None
-        except requests.RequestException:
-            pass
+            if not quiet:
+                print(f"  第 {attempt + 1} 次失敗：HTTP {r.status_code}，"
+                      f"伺服器：{r.headers.get('server', '?')}，內容開頭：{r.text[:120]!r}")
+        except requests.RequestException as e:
+            if not quiet:
+                print(f"  第 {attempt + 1} 次失敗：{type(e).__name__}：{str(e)[:150]}")
         time.sleep(2 * (attempt + 1))
     return None
 
@@ -159,7 +174,7 @@ def parse_article(html):
 
 def fetch_oembed(vid):
     """不需要金鑰的 YouTube oEmbed，可取得標題、頻道。"""
-    r = get("https://www.youtube.com/oembed",
+    r = get("https://www.youtube.com/oembed", quiet=True,
             params={"url": f"https://www.youtube.com/watch?v={vid}", "format": "json"})
     if not r:
         return None
