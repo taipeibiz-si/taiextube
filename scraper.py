@@ -18,7 +18,11 @@ from pathlib import Path
 import requests
 from bs4 import BeautifulSoup
 
-BOARD = "Stock"
+# 要抓的看板：看板名稱 → 分類標籤（None 代表照文章標題的 [分類]）
+BOARDS = {
+    "Stock": None,           # 股票板（台股為主）
+    "Foreign_Inv": "美股",    # 海外投資板（美股、費半、ETF 為主）
+}
 BASE = "https://www.ptt.cc"
 DATA_DIR = Path(__file__).parent / "data"
 VIDEOS_FILE = DATA_DIR / "videos.json"
@@ -241,12 +245,9 @@ def score(video, now):
 
 # ---------- 主流程 ----------
 
-def crawl(pages):
-    videos = load_json(VIDEOS_FILE, {})
-    seen = set(load_json(SEEN_FILE, []))
-    now = datetime.now(TW)
-
-    url = f"{BASE}/bbs/{BOARD}/index.html"
+def crawl_board(board, label, pages, videos, seen, now):
+    """抓一個看板，回傳新讀取的文章數。"""
+    url = f"{BASE}/bbs/{board}/index.html"
     new_articles = 0
     for page in range(pages):
         r = get(url)
@@ -254,15 +255,17 @@ def crawl(pages):
             print(f"列表頁讀取失敗：{url}")
             break
         articles, prev = parse_index(r.text)
-        print(f"[{page + 1}/{pages}] {url}：{len(articles)} 篇")
+        print(f"[{board} {page + 1}/{pages}] {url}：{len(articles)} 篇")
         for art in articles:
-            if art["id"] in seen:
+            # 股票板沿用舊的編號格式，其他看板加上板名，避免撞號
+            key = art["id"] if board == "Stock" else f"{board}/{art['id']}"
+            if key in seen:
                 continue
             time.sleep(DELAY)
             ar = get(art["url"])
             if not ar:
                 continue
-            seen.add(art["id"])
+            seen.add(key)
             new_articles += 1
             parsed = parse_article(ar.text)
             posted = article_time(art["id"]) or now
@@ -273,11 +276,11 @@ def crawl(pages):
                         "first_seen": posted.isoformat(),
                         "last_seen": posted.isoformat(),
                     })
-                    if any(m["article"] == art["id"] for m in v["mentions"]):
+                    if any(m["article"] == key for m in v["mentions"]):
                         continue
                     v["mentions"].append({
-                        "article": art["id"], "url": art["url"],
-                        "title": art["title"], "category": parse_category(art["title"]),
+                        "article": key, "board": board, "url": art["url"],
+                        "title": art["title"], "category": label or parse_category(art["title"]),
                         "nrec": art["nrec"], "where": where,
                         "date": posted.isoformat(),
                     })
@@ -289,6 +292,19 @@ def crawl(pages):
             break
         url = prev
         time.sleep(DELAY)
+
+    print(f"{board}：新讀取 {new_articles} 篇")
+    return new_articles
+
+
+def crawl(pages):
+    videos = load_json(VIDEOS_FILE, {})
+    seen = set(load_json(SEEN_FILE, []))
+    now = datetime.now(TW)
+
+    new_articles = 0
+    for board, label in BOARDS.items():
+        new_articles += crawl_board(board, label, pages, videos, seen, now)
 
     print(f"新讀取 {new_articles} 篇文章，累計 {len(videos)} 支影片")
 
@@ -311,7 +327,8 @@ def crawl(pages):
         v["category"] = max(set(cats), key=cats.count) if cats else "其他"
 
     save_json(VIDEOS_FILE, videos)
-    save_json(SEEN_FILE, sorted(seen)[-20000:])
+    # 依發文時間排序，只保留最近的紀錄
+    save_json(SEEN_FILE, sorted(seen, key=lambda k: k.rsplit("/", 1)[-1])[-40000:])
     return videos
 
 
