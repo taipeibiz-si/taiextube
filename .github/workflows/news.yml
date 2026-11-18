@@ -1,0 +1,41 @@
+name: 更新台股新聞牆
+
+on:
+  schedule:
+    # 每小時第 23 分更新一次（新聞比影片需要更即時）
+    - cron: "23 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+# 跟影片更新排隊，不要同時寫入
+concurrency:
+  group: update
+  cancel-in-progress: false
+
+jobs:
+  news:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: 安裝套件
+        run: pip install -r requirements.txt
+
+      - name: 抓新聞和部落格
+        run: python news.py
+
+      - name: 存回儲存庫
+        run: |
+          git config user.name "stocktube-bot"
+          git config user.email "stocktube-bot@users.noreply.github.com"
+          git add data/news.json docs/news.html
+          git diff --cached --quiet || git commit -m "新聞更新 $(date -u +'%Y-%m-%d %H:%M')"
+          git pull --rebase
+          git push
