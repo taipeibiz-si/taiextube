@@ -1,0 +1,18 @@
+{
+  "說明": "要加或刪來源就改這個檔案。news 是新聞，blogs 是部落格。抓不到的來源會在 Actions 紀錄裡寫「讀取失敗」，可以刪掉或換網址。",
+  "news": [
+    {"name": "Google 新聞・台股", "url": "https://news.google.com/rss/search?q=%E5%8F%B0%E8%82%A1+when:1d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "tag": "台股"},
+    {"name": "Google 新聞・美股", "url": "https://news.google.com/rss/search?q=%E7%BE%8E%E8%82%A1+when:1d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "tag": "美股"},
+    {"name": "Google 新聞・費半", "url": "https://news.google.com/rss/search?q=%E8%B2%BB%E5%8D%8A+when:1d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant", "tag": "美股"},
+    {"name": "Yahoo股市", "url": "https://tw.stock.yahoo.com/rss?category=tw-market", "tag": "台股"},
+    {"name": "自由財經", "url": "https://news.ltn.com.tw/rss/business.xml", "tag": "財經"},
+    {"name": "中央社財經", "url": "https://feeds.feedburner.com/rsscna/finance", "tag": "財經"}
+  ],
+  "blogs": [
+    {"name": "綠角財經筆記", "url": "https://greenhornfinancefootnote.blogspot.com/feeds/posts/default"},
+    {"name": "Mr.Market 市場先生", "url": "https://rich01.com/feed/"},
+    {"name": "雷浩斯價值投資", "url": "https://rayskyinvest.blogspot.com/feeds/posts/default"},
+    {"name": "股感", "url": "https://www.stockfeel.com.tw/feed/"},
+    {"name": "Google 新聞・投資部落格", "url": "https://news.google.com/rss/search?q=%E5%AD%98%E8%82%A1+%E5%BF%83%E5%BE%97+when:3d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"}
+  ]
+}
