@@ -17,6 +17,7 @@ ROOT = Path(__file__).parent
 DATA_FILE = ROOT / "data" / "news.json"
 TW = timezone(timedelta(hours=8))
 KEEP_DAYS = 3        # 只保留最近幾天
+EXCLUDE_SOURCES = ["Facebook", "Instagram", "YouTube", "Threads", "TikTok"]  # 不是文章的來源
 MAX_ITEMS = 800      # 每一欄最多幾則
 
 try:
@@ -76,13 +77,29 @@ def clean_title(t):
     return re.sub(r"\s+", " ", t)
 
 
+BAD_CHARS = re.compile(r"[\x00-\x08\x0B\x0C\x0E-\x1F]")
+BARE_AMP = re.compile(r"&(?!(?:amp|lt|gt|quot|apos|#\d+|#x[0-9a-fA-F]+);)")
+
+
+def sanitize(raw):
+    """很多部落格的 RSS 不太標準（夾雜控制字元、&nbsp; 之類的 HTML 符號），先清乾淨。"""
+    text = raw.decode("utf-8", errors="replace") if isinstance(raw, bytes) else raw
+    text = BAD_CHARS.sub("", text)
+    text = BARE_AMP.sub("&amp;", text)
+    return re.sub(r"^\s*<\?xml[^>]*\?>", "", text)  # 已經轉成文字，拿掉編碼宣告
+
+
 def parse_feed(raw, feed):
     """支援 RSS 2.0 和 Atom，回傳 [{title, link, source, time}]。"""
     try:
         root = ET.fromstring(raw)
-    except ET.ParseError as e:
-        print(f"  格式錯誤：{e}")
-        return []
+    except ET.ParseError:
+        try:
+            root = ET.fromstring(sanitize(raw))
+            print("  （格式不標準，已自動修正）")
+        except ET.ParseError as e:
+            print(f"  格式錯誤：{e}")
+            return []
     items = []
     nodes = [n for n in root.iter() if strip_ns(n.tag) in ("item", "entry")]
     for n in nodes:
@@ -101,6 +118,8 @@ def parse_feed(raw, feed):
             source = src_el.text.strip()
             if title.endswith(" - " + source):
                 title = title[: -len(source) - 3].strip()
+        if any(x.lower() in source.lower() for x in EXCLUDE_SOURCES):
+            continue
         if title and link and when:
             items.append({"title": title, "link": link, "source": source,
                           "tag": feed.get("tag", ""), "time": when.isoformat()})
