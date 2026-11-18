@@ -16,7 +16,7 @@ from pathlib import Path
 ROOT = Path(__file__).parent
 DATA_FILE = ROOT / "data" / "news.json"
 TW = timezone(timedelta(hours=8))
-KEEP_DAYS = 3        # 只保留最近幾天
+KEEP_DAYS = {"新聞": 3, "部落格": 14}  # 各欄保留最近幾天
 EXCLUDE_SOURCES = ["Facebook", "Instagram", "YouTube", "Threads", "TikTok"]  # 不是文章的來源
 MAX_ITEMS = 800      # 每一欄最多幾則
 
@@ -132,7 +132,7 @@ def normalize(title):
 
 def collect(kind, feeds, old):
     now = datetime.now(TW)
-    cutoff = now - timedelta(days=KEEP_DAYS)
+    cutoff = now - timedelta(days=KEEP_DAYS.get(kind, 3))
     merged = {it["link"]: it for it in old}
     for feed in feeds:
         print(f"[{kind}] {feed['name']}")
