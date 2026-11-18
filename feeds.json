@@ -51,11 +51,11 @@
     },
     {
       "name": "綠角（Google 新聞）",
-      "url": "https://news.google.com/rss/search?q=%E7%B6%A0%E8%A7%92+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+      "url": "https://news.google.com/rss/search?q=%22%E7%B6%A0%E8%A7%92%E8%B2%A1%E7%B6%93%E7%AD%86%E8%A8%98%22+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
     },
     {
       "name": "股魚（Google 新聞）",
-      "url": "https://news.google.com/rss/search?q=%E8%82%A1%E9%AD%9A%20%E6%8A%95%E8%B3%87+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
+      "url": "https://news.google.com/rss/search?q=%22%E8%82%A1%E9%AD%9A%22%20%E5%AD%98%E8%82%A1+when:7d&hl=zh-TW&gl=TW&ceid=TW:zh-Hant"
     },
     {
       "name": "投資專欄（Google 新聞）",
