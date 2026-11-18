@@ -130,7 +130,7 @@ def normalize(title):
     return re.sub(r"[\s\W_]+", "", title).lower()
 
 
-def collect(kind, feeds, old):
+def collect(kind, feeds, old, exclude_words=()):
     now = datetime.now(TW)
     cutoff = now - timedelta(days=KEEP_DAYS.get(kind, 3))
     merged = {it["link"]: it for it in old}
@@ -150,6 +150,8 @@ def collect(kind, feeds, old):
         t = datetime.fromisoformat(it["time"])
         if t < cutoff or t > now + timedelta(hours=1):
             continue
+        if any(w in it["title"] for w in exclude_words):  # 例如選舉新聞
+            continue
         key = normalize(it["title"])
         if key in seen_titles:
             continue
@@ -162,8 +164,10 @@ def main():
     feeds = json.loads((ROOT / "feeds.json").read_text(encoding="utf-8"))
     old = json.loads(DATA_FILE.read_text(encoding="utf-8")) if DATA_FILE.exists() else {}
     data = {
-        "news": collect("新聞", feeds.get("news", []), old.get("news", [])),
-        "blogs": collect("部落格", feeds.get("blogs", []), old.get("blogs", [])),
+        "news": collect("新聞", feeds.get("news", []), old.get("news", []),
+                        feeds.get("news_exclude", [])),
+        "blogs": collect("部落格", feeds.get("blogs", []), old.get("blogs", []),
+                         feeds.get("blogs_exclude", [])),
     }
     DATA_FILE.parent.mkdir(exist_ok=True)
     DATA_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding="utf-8")
