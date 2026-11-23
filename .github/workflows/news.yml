@@ -1,8 +1,8 @@
-name: 更新台股新聞牆
+name: 更新新聞牆和美股Tube
 
 on:
   schedule:
-    # 每小時第 23 分更新一次（新聞比影片需要更即時）
+    # 每小時第 23 分更新一次（新聞、美股頻道比 PTT 影片需要更即時）
     - cron: "23 * * * *"
   workflow_dispatch: {}
 
@@ -31,11 +31,18 @@ jobs:
       - name: 抓新聞和部落格
         run: python news.py
 
+      - name: 抓美股頻道影片
+        continue-on-error: true   # 美股Tube 出問題時，不影響新聞牆更新
+        timeout-minutes: 5
+        run: |
+          pip install opencc-python-reimplemented
+          python us.py
+
       - name: 存回儲存庫
         run: |
           git config user.name "stocktube-bot"
           git config user.email "stocktube-bot@users.noreply.github.com"
-          git add data/news.json docs/news.html
+          git add data docs
           git diff --cached --quiet || git commit -m "新聞更新 $(date -u +'%Y-%m-%d %H:%M')"
           git pull --rebase
           git push
