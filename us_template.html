@@ -1,0 +1,293 @@
+<!doctype html>
+<html lang="zh-Hant-TW">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>美股Tube</title>
+<meta name="description" content="美股頻道最新影片，加上 PTT 海外投資板鄉民推薦的 YouTube 影片">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700;900&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#f6f4ef; --panel:#ffffff; --ink:#1b1a17; --muted:#6d685e; --line:#e3ded3;
+  --up:#d6282e; --down:#13874c; --accent:#2b59c3; --chip:#efebe2; --shadow:0 1px 2px rgba(0,0,0,.05),0 6px 18px rgba(0,0,0,.06);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#121212; --panel:#1c1b1a; --ink:#f1eee8; --muted:#a29d93; --line:#2f2d2a;
+    --up:#ff5a5f; --down:#3ccf7d; --accent:#6f9bff; --chip:#262422; --shadow:0 1px 2px rgba(0,0,0,.4);
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#121212; --panel:#1c1b1a; --ink:#f1eee8; --muted:#a29d93; --line:#2f2d2a;
+  --up:#ff5a5f; --down:#3ccf7d; --accent:#6f9bff; --chip:#262422; --shadow:0 1px 2px rgba(0,0,0,.4);
+}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:"Noto Sans TC",system-ui,sans-serif;line-height:1.5}
+a{color:inherit}
+.wrap{max-width:1180px;margin:0 auto;padding:0 16px}
+header{border-bottom:1px solid var(--line);background:var(--panel);position:sticky;top:0;z-index:5}
+.top{display:flex;align-items:center;gap:12px;padding:12px 0}
+.logo{font-weight:900;font-size:22px;letter-spacing:.5px;text-decoration:none;white-space:nowrap}
+.logo b{color:var(--accent)}
+.tag{color:var(--muted);font-size:13px;flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.theme{border:1px solid var(--line);background:none;color:var(--ink);border-radius:8px;padding:4px 10px;cursor:pointer}
+.ticker{font-family:"JetBrains Mono",monospace;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding:6px 0;display:flex;gap:18px;overflow-x:auto;white-space:nowrap}
+.ticker span b{color:var(--up)}
+nav.tabs{display:flex;gap:4px;padding:14px 0 6px;overflow-x:auto}
+nav.tabs button{border:none;background:none;color:var(--muted);font:inherit;font-weight:700;padding:6px 12px;border-radius:999px;cursor:pointer;white-space:nowrap}
+nav.tabs button.on{background:var(--ink);color:var(--bg)}
+.tools{display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:6px 0 12px}
+.tools input[type="search"]{flex:1;min-width:180px;padding:9px 12px;border-radius:10px;border:1px solid var(--line);background:var(--panel);color:var(--ink);font:inherit}
+.fin{display:flex;align-items:center;gap:6px;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:8px 12px;cursor:pointer;font-weight:700;font-size:14px;white-space:nowrap;user-select:none}
+.fin{text-decoration:none;color:var(--accent);border-color:var(--accent)}
+.logo small{font-size:13px;margin-left:6px;padding:1px 7px;border-radius:6px;background:var(--accent);color:#fff;vertical-align:middle}
+.chips{display:flex;gap:6px;overflow-x:auto;padding-bottom:12px}
+.chip{border:1px solid var(--line);background:var(--chip);color:var(--ink);border-radius:999px;padding:4px 12px;font-size:13px;cursor:pointer;white-space:nowrap}
+.chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:16px;padding-bottom:24px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:14px;overflow:hidden;box-shadow:var(--shadow);display:flex;flex-direction:column}
+.thumb{position:relative;aspect-ratio:16/9;background:#000;cursor:pointer;border:0;padding:0;display:block;width:100%}
+.thumb img{width:100%;height:100%;object-fit:cover;display:block}
+.rank{position:absolute;left:8px;top:8px;background:rgba(0,0,0,.72);color:#fff;font-family:"JetBrains Mono",monospace;font-weight:700;font-size:12px;padding:2px 7px;border-radius:6px}
+.dur{position:absolute;right:8px;bottom:8px;background:rgba(0,0,0,.78);color:#fff;font-size:12px;padding:1px 6px;border-radius:4px;font-family:"JetBrains Mono",monospace}
+.body{padding:10px 12px 12px;display:flex;flex-direction:column;gap:6px;flex:1}
+.title{font-weight:700;font-size:15px;line-height:1.35;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;cursor:pointer}
+.ch{color:var(--muted);font-size:13px}
+.meta{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font-size:12px;margin-top:auto}
+.pill{background:var(--chip);border-radius:6px;padding:1px 7px;color:var(--muted)}
+.hot{color:var(--up);font-weight:700;font-family:"JetBrains Mono",monospace}
+.acts{display:flex;gap:6px;margin-top:6px}
+.acts button,.acts a{flex:1;text-align:center;font-size:12px;border:1px solid var(--line);background:none;color:var(--ink);border-radius:8px;padding:5px 4px;cursor:pointer;text-decoration:none;font-family:inherit}
+.acts .on{background:var(--ink);color:var(--bg)}
+.card.watched{opacity:.55}
+.more{display:block;margin:0 auto 32px;border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:10px;padding:10px 26px;font:inherit;font-weight:700;cursor:pointer}
+.empty{text-align:center;color:var(--muted);padding:60px 0}
+footer{border-top:1px solid var(--line);color:var(--muted);font-size:12px;padding:18px 0 30px}
+dialog{border:none;border-radius:14px;padding:0;max-width:880px;width:calc(100% - 24px);background:var(--panel);color:var(--ink)}
+dialog::backdrop{background:rgba(0,0,0,.6)}
+.player{aspect-ratio:16/9;background:#000}
+.player iframe{width:100%;height:100%;border:0;display:block}
+.dbody{padding:14px 16px 18px}
+.dbody h3{margin:0 0 4px;font-size:17px}
+.dbody ul{list-style:none;padding:0;margin:10px 0 0;max-height:220px;overflow:auto}
+.dbody li{border-top:1px solid var(--line);padding:7px 0;font-size:14px;display:flex;gap:8px}
+.dbody li .n{font-family:"JetBrains Mono",monospace;min-width:34px;color:var(--up);font-weight:700}
+.dbody li a{text-decoration:none}
+.dbody li a:hover{text-decoration:underline}
+.close{float:right;border:none;background:var(--chip);color:var(--ink);border-radius:8px;padding:4px 10px;cursor:pointer}
+</style>
+</head>
+<body>
+<header>
+  <div class="wrap">
+    <div class="top">
+      <a class="logo" href="./us.html">美股<b>Tube</b></a>
+      <div class="tag">美股頻道最新影片＋PTT 海外投資板鄉民推薦</div>
+      <a class="theme" href="./" style="text-decoration:none">🎬 台股Tube</a>
+      <a class="theme" href="./news.html" style="text-decoration:none">📰 新聞牆</a>
+      <button class="theme" id="theme" aria-label="切換深淺色">深／淺</button>
+    </div>
+    <div class="ticker" id="ticker"></div>
+  </div>
+</header>
+
+<main class="wrap">
+  <nav class="tabs" id="tabs">
+    <button data-tab="new" class="on">🆕 最新</button>
+    <button data-tab="hot">🔥 熱門</button>
+    <button data-tab="ptt">🗣 鄉民推薦</button>
+    <button data-tab="later">🔖 稍後觀看</button>
+    <button data-tab="watched">✔ 已看過</button>
+  </nav>
+  <div class="tools">
+    <input id="q" type="search" placeholder="搜尋標題或頻道，例如：輝達、Fed、NVDA、降息">
+  </div>
+  <div class="chips" id="stocks"></div>
+  <div class="chips" id="langs"></div>
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="grid"></div>
+  <button class="more" id="more" hidden>載入更多</button>
+</main>
+
+<footer>
+  <div class="wrap">
+    資料來源：各 YouTube 頻道公開的最新影片清單，以及 PTT 海外投資板（Foreign_Inv）文章與推文中分享的 YouTube 連結，每小時自動更新。最後更新：<span id="updated"></span><br>
+    英文標題可以用 Safari 網址列的「大小」按鈕 →「翻譯成中文」；英文影片可以在播放器的 ⚙️ 設定開啟「字幕 → 自動翻譯 → 中文（繁體）」。<br>
+    本站只整理公開影片，內容不代表本站立場，<b>不構成任何投資建議</b>，投資請自行判斷風險。
+  </div>
+</footer>
+
+<dialog id="dlg">
+  <div class="player" id="player"></div>
+  <div class="dbody">
+    <button class="close" id="close">關閉</button>
+    <h3 id="dtitle"></h3>
+    <div class="ch" id="dch"></div>
+    <ul id="dlist"></ul>
+  </div>
+</dialog>
+
+<script>
+const DATA = __DATA__;
+const UPDATED = "__UPDATED__";
+
+const store = {
+  get(k){ try{ return JSON.parse(localStorage.getItem(k)) || []; }catch(e){ return []; } },
+  set(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} }
+};
+// 跟台股Tube 分開記，避免混在一起
+let later = new Set(store.get("us_later")), watched = new Set(store.get("us_watched"));
+let state = {tab:"new", q:"", lang:"全部", ch:"全部", stock:"", shown:60};
+
+// 熱門個股快捷鍵：點一下只看相關影片，再點一下取消。要加就照格式多加一行
+const STOCKS = [
+  ["🚀 SpaceX", /SpaceX|SPCX|星鏈|Starlink|xAI|Grok/i],
+  ["🤖 Anthropic", /Anthropic|Claude/i],
+  ["🟩 輝達", /輝達|英偉達|Nvidia|NVDA|黃仁勳|Jensen/i],
+  ["🔌 特斯拉", /特斯拉|Tesla|TSLA/i],
+  ["🇹🇼 台積電", /台積電|TSMC|\bTSM\b/i],
+  ["🍎 蘋果", /蘋果|Apple|AAPL/i],
+  ["🪟 微軟", /微軟|Microsoft|MSFT/i],
+  ["🔍 Google", /谷歌|Google|Alphabet|GOOGL?/i],
+  ["📘 Meta", /Meta|臉書|Facebook|祖克柏|Zuckerberg/],
+  ["📦 亞馬遜", /亞馬遜|Amazon|AMZN|AWS/i],
+  ["🧠 OpenAI", /OpenAI|ChatGPT|奧特曼|Altman/i],
+  ["🏦 聯準會", /聯準會|美聯儲|\bFed\b|FOMC|降息|升息|鮑爾|鮑威爾|Powell|Warsh|華許/i],
+];
+
+const $ = id => document.getElementById(id);
+const esc = s => String(s ?? "").replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const NOW = Date.now();
+const hoursAgo = v => Math.max((NOW - new Date(v.published).getTime()) / 36e5, 0);
+const ago = v => { const h = hoursAgo(v);
+  if(h < 1) return Math.max(1, Math.round(h*60)) + " 分鐘前";
+  if(h < 24) return Math.round(h) + " 小時前";
+  return Math.round(h/24) + " 天前"; };
+const fmtViews = n => !n ? "" : n >= 1e4 ? (n/1e4).toFixed(n>=1e5?0:1) + " 萬次觀看" : n.toLocaleString() + " 次觀看";
+// 熱門：48 小時內，每小時平均觀看數
+const heat = v => v.views / (hoursAgo(v) + 2);
+const pttScore = v => v.ptt.reduce((s,m) => s + 2 + Math.sqrt(Math.max(m.nrec,0))/2, 0);
+
+// 主題
+try{ const t = localStorage.getItem("theme"); if(t) document.documentElement.dataset.theme = t; }catch(e){}
+$("theme").onclick = () => {
+  const cur = document.documentElement.dataset.theme ||
+    (matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+  const next = cur === "dark" ? "light" : "dark";
+  document.documentElement.dataset.theme = next;
+  try{ localStorage.setItem("theme", next); }catch(e){}
+};
+$("updated").textContent = UPDATED;
+
+function base(){
+  let arr = DATA.slice();
+  if(state.tab==="hot") arr = arr.filter(v => v.views && hoursAgo(v) <= 48).sort((a,b)=> heat(b)-heat(a));
+  else if(state.tab==="ptt") arr = arr.filter(v => v.ptt.length).sort((a,b)=> pttScore(b)-pttScore(a));
+  else if(state.tab==="later") arr = arr.filter(v => later.has(v.id));
+  else if(state.tab==="watched") arr = arr.filter(v => watched.has(v.id));
+  else arr = arr.filter(v => v.lang !== "鄉民");   // 最新：頻道影片，照時間
+  if(state.lang!=="全部" && state.tab!=="ptt") arr = arr.filter(v => v.lang===state.lang);
+  return arr;
+}
+function list(){
+  let arr = base();
+  if(state.ch!=="全部") arr = arr.filter(v => v.channel===state.ch);
+  if(state.stock){ const re = STOCKS.find(s => s[0]===state.stock)[1];
+    arr = arr.filter(v => re.test(v.title + " " + v.ptt.map(m=>m.title).join(" "))); }
+  if(state.q){ const q = state.q.toLowerCase();
+    arr = arr.filter(v => (v.title+" "+v.channel+" "+v.ptt.map(m=>m.title).join(" ")).toLowerCase().includes(q)); }
+  return arr;
+}
+
+function drawChips(){
+  $("stocks").innerHTML = STOCKS.map(([n]) =>
+    `<button class="chip ${n===state.stock?"on":""}" data-stock="${esc(n)}">${esc(n)}</button>`).join("");
+  $("langs").innerHTML = state.tab==="ptt" ? "" : ["全部","中文","英文"].map(l =>
+    `<button class="chip ${l===state.lang?"on":""}" data-lang="${l}">${l==="全部"?"🌐 全部":l==="中文"?"🀄 中文頻道":"🇺🇸 英文頻道"}</button>`).join("");
+  const counts = {};
+  base().forEach(v => { if(v.channel) counts[v.channel] = (counts[v.channel]||0) + 1; });
+  const chs = Object.keys(counts).sort((a,b)=>counts[b]-counts[a]).slice(0,14);
+  if(state.ch!=="全部" && !chs.includes(state.ch)) state.ch = "全部";
+  $("chips").innerHTML = ["全部", ...chs].map(c =>
+    `<button class="chip ${c===state.ch?"on":""}" data-ch="${esc(c)}">${c==="全部"?"所有頻道":esc(c)+" "+counts[c]}</button>`).join("");
+}
+
+function card(v, i){
+  const tag = v.lang==="鄉民" ? "PTT" : v.lang;
+  return `<article class="card ${watched.has(v.id)?"watched":""}">
+    <button class="thumb" data-play="${v.id}" aria-label="播放 ${esc(v.title)}">
+      <img loading="lazy" onerror="this.style.visibility='hidden'" src="https://i.ytimg.com/vi/${v.id}/mqdefault.jpg" alt="">
+      ${state.tab==="hot"||state.tab==="ptt" ? `<span class="rank">#${i+1}</span>` : ""}
+    </button>
+    <div class="body">
+      <div class="title" data-play="${v.id}">${esc(v.title)}</div>
+      <div class="ch">${esc(v.channel)}</div>
+      <div class="meta">
+        ${v.ptt.length ? `<span class="hot">▲ ${v.ptt.length} 篇推薦</span>` : ""}
+        <span class="pill">${esc(tag)}</span>
+        <span class="pill">${v.lang==="鄉民" ? "最近推薦 " : ""}${ago(v)}</span>
+        ${v.views ? `<span class="pill">${fmtViews(v.views)}</span>` : ""}
+      </div>
+      <div class="acts">
+        <button data-later="${v.id}" class="${later.has(v.id)?"on":""}">${later.has(v.id)?"已加入":"稍後觀看"}</button>
+        <button data-watched="${v.id}" class="${watched.has(v.id)?"on":""}">${watched.has(v.id)?"已看過":"標記已看"}</button>
+        ${v.ptt.length ? `<a href="${esc(v.ptt[v.ptt.length-1].url)}" target="_blank" rel="noopener">鄉民怎麼說</a>`
+          : `<a href="https://www.youtube.com/watch?v=${v.id}" target="_blank" rel="noopener">YouTube 開啟</a>`}
+      </div>
+    </div>
+  </article>`;
+}
+
+function drawTicker(){
+  const top = DATA.filter(v => v.views && hoursAgo(v) <= 24).sort((a,b)=> heat(b)-heat(a)).slice(0,6);
+  $("ticker").innerHTML = top.map((v,i) =>
+    `<span>#${i+1} ${esc(v.title.slice(0,22))}${v.title.length>22?"…":""} <b>${fmtViews(v.views)}</b></span>`).join("")
+    || "<span>資料準備中</span>";
+}
+
+function draw(){
+  drawChips();
+  const arr = list();
+  const empty = {later:"還沒有加入稍後觀看的影片", watched:"還沒有看過的影片",
+                 ptt:"最近還沒有鄉民推薦的影片"}[state.tab] || "找不到符合的影片";
+  $("grid").innerHTML = arr.slice(0, state.shown).map(card).join("") || `<div class="empty">${empty}</div>`;
+  $("grid").style.display = arr.length ? "grid" : "block";
+  $("more").hidden = arr.length <= state.shown;
+}
+
+document.addEventListener("click", e => {
+  const t = e.target.closest("[data-tab],[data-stock],[data-lang],[data-ch],[data-play],[data-later],[data-watched]");
+  if(!t) return;
+  if(t.dataset.tab){ state.tab=t.dataset.tab; state.shown=60; state.ch="全部";
+    document.querySelectorAll("#tabs button").forEach(b=>b.classList.toggle("on", b===t)); draw(); }
+  else if(t.dataset.stock){ state.stock = state.stock===t.dataset.stock ? "" : t.dataset.stock; state.shown=60; draw(); }
+  else if(t.dataset.lang){ state.lang=t.dataset.lang; state.ch="全部"; state.shown=60; draw(); }
+  else if(t.dataset.ch){ state.ch=t.dataset.ch; state.shown=60; draw(); }
+  else if(t.dataset.play){ openPlayer(t.dataset.play); }
+  else if(t.dataset.later){ const id=t.dataset.later; later.has(id)?later.delete(id):later.add(id); store.set("us_later",[...later]); draw(); }
+  else if(t.dataset.watched){ const id=t.dataset.watched; watched.has(id)?watched.delete(id):watched.add(id); store.set("us_watched",[...watched]); draw(); }
+});
+$("q").addEventListener("input", e => { state.q=e.target.value.trim(); state.shown=60; draw(); });
+$("more").onclick = () => { state.shown += 60; draw(); };
+
+function openPlayer(id){
+  const v = DATA.find(x => x.id===id); if(!v) return;
+  $("player").innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+  $("dtitle").textContent = v.title;
+  $("dch").textContent = v.channel + (v.ptt.length ? " ・ 被 " + v.ptt.length + " 篇文章推薦" : " ・ " + ago(v));
+  $("dlist").innerHTML = v.ptt.slice().reverse().map(m =>
+    `<li><span class="n">${m.nrec>=100?"爆":m.nrec}</span><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)}</a></li>`).join("");
+  $("dlg").showModal();
+  if(!watched.has(id)){ watched.add(id); store.set("us_watched",[...watched]); }
+}
+function closePlayer(){ $("player").innerHTML=""; $("dlg").close(); draw(); }
+$("close").onclick = closePlayer;
+$("dlg").addEventListener("click", e => { if(e.target===$("dlg")) closePlayer(); });
+$("dlg").addEventListener("cancel", () => { $("player").innerHTML=""; setTimeout(draw); });
+
+drawTicker();
+draw();
+</script>
+</body>
+</html>

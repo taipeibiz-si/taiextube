@@ -1,0 +1,19 @@
+{
+  "說明": "美股Tube 追蹤的 YouTube 頻道。要加頻道就照格式多加一段：name 是網站上顯示的名字，lang 填「中文」或「英文」，然後三種寫法擇一：id（UC 開頭的頻道 ID，最準）、handle（頻道網址 youtube.com/@ 後面那段）、search（頻道名稱，自動搜尋第一個頻道）。Actions 紀錄會印出實際抓到的「YouTube 上的頻道名稱」，可以確認有沒有抓錯；抓錯的話改填 id。",
+  "channels": [
+    { "name": "美投侃新聞", "lang": "中文", "id": "UCGpj3DO_5_TUDCNUgS9mjiQ" },
+    { "name": "美投講美股", "lang": "中文", "id": "UCBUH38E0ngqvmTqdchWunwQ" },
+    { "name": "游庭皓的財經皓角", "lang": "中文", "id": "UC0lbAQVpenvfA2QqzsRtL_g" },
+    { "name": "視野環球財經", "lang": "中文", "id": "UCFQsi7WaF5X41tcuOryDk8w" },
+    { "name": "財經M平方", "lang": "中文", "search": "財經M平方 MacroMicro" },
+    { "name": "股癌 Gooaye", "lang": "中文", "search": "Gooaye 股癌" },
+    { "name": "老李玩錢", "lang": "中文", "search": "老李玩錢" },
+    { "name": "美股探路客", "lang": "中文", "search": "美股探路客" },
+    { "name": "財經好彭友", "lang": "中文", "search": "財經好彭友 Finance Bro" },
+    { "name": "凱基證券樂活投資人", "lang": "中文", "id": "UCAb0OrzVjoc_3S97ng5lemg" },
+    { "name": "CNBC Television", "lang": "英文", "id": "UCrp_UI8XtuYfpiqluWLD7Lw" },
+    { "name": "Bloomberg Television", "lang": "英文", "id": "UCIALMKvObZNtJ6AmdCLP7Lg" },
+    { "name": "Yahoo Finance", "lang": "英文", "id": "UCEAZeUIeJs0IjQiqTCdVSIg" },
+    { "name": "CNBC International", "lang": "英文", "handle": "@cnbci" }
+  ]
+}
