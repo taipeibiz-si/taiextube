@@ -3,6 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="strict-origin-when-cross-origin">
 <title>美股Tube</title>
 <meta name="description" content="美股頻道最新影片，加上 PTT 海外投資板鄉民推薦的 YouTube 影片">
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,6 +76,7 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
 .dbody li .n{font-family:"JetBrains Mono",monospace;min-width:34px;color:var(--up);font-weight:700}
 .dbody li a{text-decoration:none}
 .dbody li a:hover{text-decoration:underline}
+.ytlink{display:inline-block;margin-top:8px;font-size:14px;font-weight:700;color:var(--accent);text-decoration:none}
 .close{float:right;border:none;background:var(--chip);color:var(--ink);border-radius:8px;padding:4px 10px;cursor:pointer}
 </style>
 </head>
@@ -124,6 +126,7 @@ dialog::backdrop{background:rgba(0,0,0,.6)}
     <button class="close" id="close">關閉</button>
     <h3 id="dtitle"></h3>
     <div class="ch" id="dch"></div>
+    <a class="ytlink" id="dyt" href="#" target="_blank" rel="noopener">▶ 播不出來？到 YouTube 看</a>
     <ul id="dlist"></ul>
   </div>
 </dialog>
@@ -273,8 +276,9 @@ $("more").onclick = () => { state.shown += 60; draw(); };
 
 function openPlayer(id){
   const v = DATA.find(x => x.id===id); if(!v) return;
-  $("player").innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen></iframe>`;
+  $("player").innerHTML = `<iframe src="https://www.youtube-nocookie.com/embed/${id}?autoplay=1" allow="autoplay; encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>`;
   $("dtitle").textContent = v.title;
+  $("dyt").href = "https://www.youtube.com/watch?v=" + id;
   $("dch").textContent = v.channel + (v.ptt.length ? " ・ 被 " + v.ptt.length + " 篇文章推薦" : " ・ " + ago(v));
   $("dlist").innerHTML = v.ptt.slice().reverse().map(m =>
     `<li><span class="n">${m.nrec>=100?"爆":m.nrec}</span><a href="${esc(m.url)}" target="_blank" rel="noopener">${esc(m.title)}</a></li>`).join("");
