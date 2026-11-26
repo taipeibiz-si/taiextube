@@ -1,6 +1,545 @@
 {
  "news": [
   {
+   "title": "股災就該買中華電？想「賣電子、買傳產」，先搞懂獲利的2大關鍵",
+   "link": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1meUM1UGtWUUxpLW5YbXlsX294NG9ZbkJlWF9yYTBES1ZjSnY1ZFQtdUpST2tfMWlsWkptY0JUenZjWlU0em15UWp1dU5oU1NqYkg4dEF2bjFNeGlYSmljaFlnZDA0bG5QNURFRUJkYi1Wbm93Z1E?oc=5",
+   "source": "商周財富網",
+   "tag": "台股",
+   "time": "2026-11-26T14:18:34+08:00"
+  },
+  {
+   "title": "Anthropic破發、科技股賣壓 OpenAI IPO前景蒙陰影",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654182",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T14:17:00+08:00"
+  },
+  {
+   "title": "台股狂飆956點收復39K！衛星概念股、PCB族群全面噴出- 證券",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE1FYndwWk10VDUxeGsxVkhJTUxBNHlJcHIycl9zU2pnZTlMUk4teGExMkdFR1Z0bDlkemRpSEdtVnN0dEdLQ1cwaWxRbHUtTkQxR2F6aXFWS1NYa01VUENV?oc=5",
+   "source": "工商時報",
+   "tag": "台股",
+   "time": "2026-11-26T14:16:00+08:00"
+  },
+  {
+   "title": "今日台股》美國301調查報告出爐！台股上漲956點 台積電逆勢下跌5元",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9IT0MtSnVyVUMwMmppd3FnRTBhcFVqZFNiTGg1UDBZZFRmRUYzODFoVHpuRXllZXZseElfVTdqaFN2djROQTl5OGM5Rmx1THdUQUctaGowckN1ZEli?oc=5",
+   "source": "卡優新聞網",
+   "tag": "台股",
+   "time": "2026-11-26T14:15:23+08:00"
+  },
+  {
+   "title": "台積電正是甜甜價？外媒點名「逢低值得買入」 理由全說了",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5653818",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T14:14:46+08:00"
+  },
+  {
+   "title": "道瓊從跌 1,100 點到翻紅，美股為什麼先跌後彈？",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE10Q1Q1ZmkyU0c0Ym5EM01faE4tYTI5WldCYjM0ZGN1TFBCcGdLeG5YaEhGQ1ZuYWdaLThkQ2JRUnpzTWZmLWVkNm0yNUkwUVFWVGdYT2tfNmdXU3dGOGFZZ0pvSFJHdw?oc=5",
+   "source": "口袋證券",
+   "tag": "美股",
+   "time": "2026-11-26T14:14:18+08:00"
+  },
+  {
+   "title": "美國對台關稅獲最高15%最低級別稅率，台股盤中大漲逾1200點-財經焦點情報站",
+   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPRUw3U0kzQmJQM1k5NkIzYjdkWkJ0UmdrVS16SHc5ZjFiTV9ZUjExOWdFdm1UM1F3b2twb3NQQmFOdHVGcWwydi1jX2Rkb1NZa1o2YTFHVWZYY1FZcXdreV9oU0NHcHAtUENldmJYVVRQeVgwWFEycWlSUXNWd0xqUEx3?oc=5",
+   "source": "CMoney投資網誌",
+   "tag": "台股",
+   "time": "2026-11-26T14:13:59+08:00"
+  },
+  {
+   "title": "【台股盤後】電金傳同步反彈！台股上漲956點 收39151點",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBKa3B5N05jVF9GMnpIRm1VZnFhM1AzNGtrNHR5VXAtUC1HMktmalhHaHpxYi1VRGJXYmxTd3ozQXk2VnlCVENIMWhWdC1veWN1RWxLREp6VmRUY0lqSjg1dg?oc=5",
+   "source": "非凡新聞台",
+   "tag": "台股",
+   "time": "2026-11-26T14:13:00+08:00"
+  },
+  {
+   "title": "【零股排行榜】 盤中零股成交量TOP 20｜0050 元大台灣50、2330 台積電、00631L 元大台灣50正2、00406A 主動中信台灣收益、0056 元大高股息(1126)｜豐雲學堂2026 年 11 月",
+   "link": "https://news.google.com/rss/articles/CBMihwVBVV95cUxOVUlJdVhMUHlkaTFLb2Nab2cwNEwyVUpNSjZlNUdGYlZJY09EUndIdUNabDhTVkxTMy1YYXhkQ3dRakp6LXlDTF9xQUZkM3Q4MTlwdnh3RXBsYjZxdFhrN2U1NUVwMzN3emU2b191U3BmM2UwekYxNnNkYTV4Szl5UW1sQ00wMVJha3I3b2VDREk4bWZpOHAxUy16LWZTd2FCcHBNcFRrS3NnRE43ekZQWHluTVZVeUlPbW03eHBfTy1xWEdfS1NJRFBIOGRFZWVDblRZZmlRM1k4VXdpOHVLM0hyVzQtdXFKam9NMkhhRWJMT3loM2wzc0dGYjNNWGZmSmRoSjVnMnZOZ1YzTkZwc0M0TEJOVmtLY0U0MzNRQ0t3ZHZ4ekpidEQ0eUFaemFDcDYtX2FDaHI0emNzNEdyOFhkclpnUGhDNFp1blBqS1FWUnl6dVd0M2dzTjFUWkIyM0lxcktnVjVLWkEweVVIV1llRzBsY0pLaXBCSXhCcTJaRE00NnktT0UwZUFKUzdIS1BUeEhza1dCLVV0ek1tamo5Y2ZSRE5Qb054aXJQWEZVNmEyMFZ5QTF1X3BqWnhfZlBycHprUEp6a2dKQzRkc3dzWWtyRXhNbjV3U1R1aGowYlozellsYlpxMlp3ZjlxZTJWUXRKcDZfNmNWVGRKeDRGNDdKY2VWS1RQWUNsYndjWjFOX0xMdnBWbHByWVN0aXVsZV90eGNUdnA0Snp5NW1UMEI5cUdrSVZkOS1YbllsaUNiaWxrYmRTRHFnX25iRGIzRHZRbzhneG9wRHZMRFRna3ctN2RNR3BNVE85Q0F4REhabDZ6dUh3dE5TYnVlNHhPX0dlVQ?oc=5",
+   "source": "永豐金證券",
+   "tag": "台股",
+   "time": "2026-11-26T14:12:19+08:00"
+  },
+  {
+   "title": "美301關稅15％不疊加 龔明鑫：企業鬆口氣",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654172",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T14:11:47+08:00"
+  },
+  {
+   "title": "科技股修正後還有機會？野村投信解析2027台股布局方向 「台股基金老字號」以研究實力掌握產業新局",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFA2NFRhM0U1b1JqY2pzT0hVZWtNU3ZXMDAxeG56Q3NnUTFTUzBsX0NOSDZ5eVQzNEE1MjdLUXFnWHpjQlkzVGJCV3IyMGhhczk3MGE2azVWMEs?oc=5",
+   "source": "CMoney",
+   "tag": "台股",
+   "time": "2026-11-26T14:10:15+08:00"
+  },
+  {
+   "title": "台股加權收復3萬9 大盤一度漲逾1200點 台積熄火",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9CdHdaZFZyS2NNVUtLamhhRk5Dc2syVjZGdmxBUkMwdVlLUDl6X3ZkbE1IV1ZDdkVKV0ptdWRkNDVYSFBKWllLYXVqN2hzTThrMFQtTnNXZTNLdDQyWi1wVXFIWmxYZE9zQXBMS3p2eU1GQdIBVkFVX3lxTE5rSGJNS0hWZWstQnVmU1l5MDNGaXpDSnRMOW1YaV9LQUwxVEFoMkRial82bUxsMkxQQWgxbC1yeC0wcTY3ZTJaYnkyWUh5bHdxeko5Q2Fn?oc=5",
+   "source": "udn",
+   "tag": "台股",
+   "time": "2026-11-26T14:09:26+08:00"
+  },
+  {
+   "title": "〈台股盤後〉電子族群強勢反彈帶動收漲近千點 護盤指標股台積電收小跌",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE41aURIUExIakkzVE54TUVRenpsd0VIUXVPUjVjcGh4OF80eWVHRklQV2tMREZ2RVQ1RlNvWTdiODVXS1ZwZm1kTl92RQ?oc=5",
+   "source": "鉅亨網",
+   "tag": "台股",
+   "time": "2026-11-26T14:09:09+08:00"
+  },
+  {
+   "title": "12月台股期指漲1332點",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE90b3BRUEZHRC1ka3h6ZGNhRk1lcFFuRDY0RUxrem5nVjV0ZTRWMUVWM0JwbUo4cEg5ZTdfYWFkd3ZydjBWQXphSThzeWNVSmxlVEU2OEptbUpWTjDSAWBBVV95cUxQX1VlRXpEZU44d1FGM1U3R2U4eGRpbVh5NjRXMDZlQXZHVWxqc0syaTZUZ3JlSnFnWUJndTJyU2F4WU9EVW1KNlJaYW85QlZ5RUpKXzFzVjZmTjFEZmlHSFY?oc=5",
+   "source": "經濟日報",
+   "tag": "台股",
+   "time": "2026-11-26T14:08:30+08:00"
+  },
+  {
+   "title": "記憶體、封測反攻！台股收漲956點 穎崴董座看旺明年、股價亮燈",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE82WWpSNkJvREwwSU1PZ2poNWw1cFhrNk5ickFldEwzRjg0NWRLdXR6U0RySEFXNTdZMDNNNW9mUEZsRFlJVFdZT0VXeGdMajc10gFWQVVfeXFMT0hseFFYdmFGNHhCT01YSU82a3FQb0oyWnNEeHJMVlhNOVh5WjZtS2ZkWHY1WHBkWEJ3dmxzVkpXVy05TmVHTXcwMUVXVE5wZEN0UXhENEE?oc=5",
+   "source": "udn",
+   "tag": "台股",
+   "time": "2026-11-26T14:07:46+08:00"
+  },
+  {
+   "title": "7-Eleven宣佈撤出柬埔寨！12/25全面熄燈 踢鐵板原因超現實",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654131",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T14:06:01+08:00"
+  },
+  {
+   "title": "台股收漲956.38點 收39151.81點",
+   "link": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQNWtRNkZuQzIycnNJWXpibUpDM21SSkdmME5jQV9lYTNhcEYwQk95SzVEX1ljalgyam50U211Znh4WExueElHWTk1cjlNNE1CVHVhaWdDOGFsVEdsVEhoUkg0SnVRSzRiRDNIWTNRaElvaF96eXBXb2dMQkJZME5VV3dGaEJLRmluRnlzLTNqMW1YY01QTm44eFRjTmdJSEctMzdDVzdsU2F6OXIwd0VCeWRLNjFfcXlYMlhJ?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "台股",
+   "time": "2026-11-26T14:05:51+08:00"
+  },
+  {
+   "title": "台股開盤漲754點 台積電2150元平盤開出",
+   "link": "https://news.google.com/rss/articles/CBMihgJBVV95cUxQV0Q1a0hxSks3b3RPUUxzOGtmVlJidWZvbmMyaFA1ZUFuSHdISGdYWm5lZlZkUmNCd3JEWGhNRk9HWk1sVE5hRldyU3hWN1ZGNWI4VGpaZFFuS18zMXRkZmdRZnNmak9qWnJIaGg0Wi1TZUZFVmZjZzhZN1owek9raVJlcHhPOWFHbVR2b2F5ZjR5LTVrM09fRjJUa2s2dXl4NUVRcFJfbWpScGxwZ3dsYng2SUZHc0pKMGxqMWV0Yzc4RnFZZXhyYWdaYk9lZzVLUEktZmJsdDZwa0Mxd0p5RENnV2M3NzF4d2lwSDE1RjduU25ZdmdSWjRPMC1fMlNNVnI3ZC13?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "台股",
+   "time": "2026-11-26T14:05:00+08:00"
+  },
+  {
+   "title": "台股漲956.38點",
+   "link": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxPOXUtbTBYczIyNXBJa2NrRHd4aHVacXJ1VTk1a09MY0NuNnoweFRGdzlqbkhFaHY1bWppR2wzM0FYWVNveGpHWVJUb3FxaUZIZHNVUU1rd3pEMzFMZ1JGa3BNX1dPUlZyaE5lODIzbS11ZXNOYUlidDVaZ01oQmd6dFNxck9qb3BGLTI0?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "台股",
+   "time": "2026-11-26T14:01:17+08:00"
+  },
+  {
+   "title": "加密市場引入美股真的是壞事嗎？",
+   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE1ZMFdqSkpvejNMTjNxcWdvU0hHUkhmbzZpeHA5aGpZcW1JTUN3ZUVSbjRmb2tHRWJJZVN2RXo3cjRBdi1uZWcxdWZPMzh2MmM?oc=5",
+   "source": "鉅亨網",
+   "tag": "美股",
+   "time": "2026-11-26T14:01:07+08:00"
+  },
+  {
+   "title": "台南人等到了！IKEA插旗南紡 400坪賣場首曝光",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654130",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:58:05+08:00"
+  },
+  {
+   "title": "台南社宅再添生力軍！永康「東橋安居」11/30開放申請 月租最低5660元",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654160",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:57:09+08:00"
+  },
+  {
+   "title": "郭哲榮砸2.3億買0050昨虧千萬今翻正！漲跌全憑情緒…再喊台股5萬點",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBubnFuVFF2N1BVTGswbzJndEkzbXNXa0w1b3JCNUNKaXF2N1NFLXpnS1lZYzltMTJHYmpEZ3FRSjhEVVJTTDBUSEYtZU8yRUhqdTlB0gFYQVVfeXFMT1ZlYjZuNHNZbE94bmxzQlZiOFktQV9uSDhPeEJGY0Q3MlJvVlVVNzk2MUpVdHpYMEMwN1h2OXlVQ294UjJDQ1ZVcllWVGZmNkZ6MDhZR2dYdQ?oc=5",
+   "source": "udn",
+   "tag": "台股",
+   "time": "2026-11-26T13:56:00+08:00"
+  },
+  {
+   "title": "宏于電機201.11元掛牌上櫃 AI資料中心訂單看到2028年",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654164",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:55:58+08:00"
+  },
+  {
+   "title": "台股上漲956點收39151點 台積電尾盤爆大量收2145元",
+   "link": "https://news.google.com/rss/articles/CBMisAJBVV95cUxOdzdlTmtqa1dzVXc0SUMyM2JscC1fQ0o3MGltcjA4c2hlUkVGUkxlcTJmWE81amY5VWVZcHdqbjZCNFdQSkFfSm9TekFVbm9WTVpVeTZ3dDVzWHQ3Nm00eE82MVZ5R1FEMi1KWXVzVmJNekVuTnZLOGhoR0tBMXEtMTdhcmk0VG5neC1DM2duc0xWQW4wTlVlSGhTVXZDaVZxR3NONVJ6X1FxTU5WdllIOG5RUUVLb0pINmdUY3lycFg0eXNrb0NPVzlNQnVPdE9qT0lMM1BJdkUtcHRMMnNDWlVkTW02b3VPMW5BaWVSdWZZSWtmY0h3WTlQbTF0REg2dVUyM1BKcEIzS0JKQW1jY2RsT19OVG9WTlc3RjlBNV9KTWRwdkU1Q20xa0tiNXBv?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "台股",
+   "time": "2026-11-26T13:55:55+08:00"
+  },
+  {
+   "title": "台股收復39,000關卡、收漲956點 台積電最後一盤遭狙擊收低5元",
+   "link": "https://news.google.com/rss/articles/CBMickFVX3lxTE9vdGxnNm52dkJPWFZhY3dNUGthUkpRNW5wSkVVaVIxcEhqN2F6NVNFSWtJNXJCZ1dDOXlwSXZYdVNPLXBBLTBQTE5Ra1RxRXlFd1o1QkI2enA2U3BDS3dQaDNENzhhR2hTbHUwd3B1cGVhQQ?oc=5",
+   "source": "UDN",
+   "tag": "台股",
+   "time": "2026-11-26T13:55:24+08:00"
+  },
+  {
+   "title": "台美關稅利多激勵台股！終場強漲956點、重返39K 台積電跌5元",
+   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%BE%8E%E9%97%9C%E7%A8%85%E5%88%A9%E5%A4%9A%E6%BF%80%E5%8B%B5%E5%8F%B0%E8%82%A1-%E7%B5%82%E5%A0%B4%E5%BC%B7%E6%BC%B2956%E9%BB%9E-%E9%87%8D%E8%BF%9439k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%B7%8C5%E5%85%83-055450493.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:54:50+08:00"
+  },
+  {
+   "title": "【台股期指】12月台股期指漲1332點",
+   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%9C%9F%E6%8C%87-12%E6%9C%88%E5%8F%B0%E8%82%A1%E6%9C%9F%E6%8C%87%E6%BC%B21332%E9%BB%9E-055446193.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:54:46+08:00"
+  },
+  {
+   "title": "12月電子期金融期齊漲",
+   "link": "https://www.cna.com.tw/news/afe/202611260137.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:53:47+08:00"
+  },
+  {
+   "title": "台股上漲956點收39151點 PCB散熱族群反彈",
+   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%8A%E6%BC%B2956%E9%BB%9E%E6%94%B639151%E9%BB%9E-pcb%E6%95%A3%E7%86%B1%E6%97%8F%E7%BE%A4%E5%8F%8D%E5%BD%88-055341285.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:53:41+08:00"
+  },
+  {
+   "title": "美光桃園工會曾赴行政院陳情 請中央協助成立「關係企業工會」",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654145",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:53:19+08:00"
+  },
+  {
+   "title": "高檔震盪仍強漲近千點！台股收漲956點 台積電小跌5元、收2145元",
+   "link": "https://tw.stock.yahoo.com/news/%E9%AB%98%E6%AA%94%E9%9C%87%E7%9B%AA%E4%BB%8D%E5%BC%B7%E6%BC%B2%E8%BF%91%E5%8D%83%E9%BB%9E-%E5%8F%B0%E8%82%A1%E6%94%B6%E6%BC%B2956%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B0%8F%E8%B7%8C5%E5%85%83-%E6%94%B62145%E5%85%83-055233125.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:52:33+08:00"
+  },
+  {
+   "title": "台股收盤／台積電跌5元！台股大漲956點 PCB族群領軍反攻",
+   "link": "https://news.google.com/rss/articles/CBMi0AJBVV95cUxOejBqUTA0SkxkUjhLYnJ4WWNOcHoyT1I1Rm9jRU5PeGo3bzAwYTZnUWhPRTA5VG1qdnRtY2JJRnQ4OEJINnVNaVN4Rm5GTGs3SXZfd3o5c1g0dGVGYVhBT3Nsc0U2aWtQcmZ3U280Vm9DNWlLX3RpSlRFb3V4NzI3LVdxekk3dTk3YnhYaWdkbkszM0gwMldsUWVIemVZemN0UmJBbDU1VGhfTDJWV1J0dXZJUjc5NFE2MHEyM1k2ay10YTRGVy1adXR4STZ1MEZxaTNNMVZqYi0xZUpULTR0dHJUNGJidER2Qk9XRkVVWHFVcy1wbUY3QWpfdERteDAtekNnX0dRajkyZ0hWaU9FZG5zTG91SFN2M1RNeUxFMEU3bEs5NWZoa0ZBclBkT05RMzJhbEI2N2dndWxicDJMZTVqUFNHV08tM1JnMW43bnM?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "台股",
+   "time": "2026-11-26T13:51:21+08:00"
+  },
+  {
+   "title": "費半V轉激勵！「這兩檔」半導體飆漲近7%",
+   "link": "https://news.google.com/rss/articles/CBMigAJBVV95cUxNVFozSHZqQnZlbnF2blZhc2FvNC1IV19wLVNPTUNlZmdub3RrcFMwbTVXNkxENk40QkpybGpXM1lDWGEwYkZnWXllVlo5SnM0YmNnUHpyWTRNaW55OWFadGMzMGo5bGlyS3pTZzhFZW9kMmlOWWd6TkRiS1hteDRfM25HTTJZR08zeVJlQnRKakhReDlrR29rODhTZDgtdDdvOEhtcTQzc0dteHZQUmJYNzFGRUo5SG56XzhOaEZTdm9LUDVtUmJpdlhsNWEyV0Z5Y0tFZll2ZUFhVUQ4VWQ3VjZaalNoUjFQN1NHYzRsaHhwMHlkZXl4MDRkTFNVajJB?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "美股",
+   "time": "2026-11-26T13:51:20+08:00"
+  },
+  {
+   "title": "日本退稅改制超麻煩又好複雜？旅日達人教「佛系退稅法」 3步驟拿回現金",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5653868",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:49:29+08:00"
+  },
+  {
+   "title": "台幣貶破33元、台股跌逾23％落底了？ 專家揭築底4訊號",
+   "link": "https://news.google.com/rss/articles/CBMiygJBVV95cUxOSnBzNkhIRjFwMEVSWTR1MmdKNE5iSkxaT0NGUnVpdHRIRUdBbzhEZzdaVUYwUy1OZXgydEVDNS1qcmxKbmgyZmhmREJHNExtc3plcjdZcDlWdW5FRWZBa0lTQ29MYmlBa0JuOUVzQWVURzFYWmktZnRsTGdaWjM2aDl0MzFydlRwMmtPME5zdjZXMmJtbFFjVHF3aXZjZWRkMXAyREtrR3Q4ZEZEZDVxamJPeVdvRTk0bnVKZjdXdUE2M1FjMGx6YVJsYTdQNHFGOEJiWmZWOFpJQXZQdktNNVRYRlRJV3d5LXpBaG81Y3RxbFo4X3F5YlBEa0ZkQTRMYUphUjZsNGY1ZEdCYmwzN1VzclY3LW4wVjZFdDRLVlhTdWtvRjgxWnVaOXl5d3Z4aUEtWGt5RGI1QmQ5ZlZjWFJJZ3RueThNVHc?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:49:05+08:00"
+  },
+  {
+   "title": "路易莎Selfroom健身房插旗大巨蛋 「翹臀專區」全台最大",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654137",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:48:44+08:00"
+  },
+  {
+   "title": "美股電子盤：今(26)日美股期指電子盤最新報價",
+   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQd25JSTdzY3kzNjdNUms1VnFodDVzcERuQlBFSDk4VkV1bzlzM2hZWDhPSElOdFVTaUxqV1BuaHdTS3JwY09rWUNfSTZVU251SU1IM2p5REtZa2U2dkwzdU1KazNCaEVnUUZJa25TZmlCNzFPRE1pX2gwdzhreGt0STdsT0EzQnUz?oc=5",
+   "source": "富聯網",
+   "tag": "美股",
+   "time": "2026-11-26T13:48:00+08:00"
+  },
+  {
+   "title": "台股收盤強彈956點！台積電反跌5元收2145元",
+   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4%E5%BC%B7%E5%BD%88956%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%8F%8D%E8%B7%8C5%E5%85%83%E6%94%B62145%E5%85%83-054712282.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:47:12+08:00"
+  },
+  {
+   "title": "人手2股太空夢！馬斯克宣布贈全美孩子SpaceX股份 公司與個人各捐1股至「川普帳戶」",
+   "link": "https://news.google.com/rss/articles/CBMi3gNBVV95cUxNXzV4ZEJRVWhQbnF2bUJnUllsY1NUQlFBcy1SV2VzLTdsb1puN0JmbVJsS0xzYmxTc2l4YTYwbVBsXzVkV0JLenZaYS13TXZubmVTbTgwSFRHaVAxdXdyNVVNTm93ekhOLWJmN096QXFHSzF4THh5d2l0UDFjTUx4bVdaUFdiRl95MzRfYUwwWDNpRl80UnBzZm1aa3gtSWRiMGVCRjhXNTh4ZUhKbGFGV2lnUHkzOGZnVFk4a3lGVkY3ZXRCcy01My1zQlFLeVgzeTdvUnZJbGZBcVZoZXZQN0R3Y29xR0lmb2kwY0pjU1E2YnpfZ3cyeFduSVFmbE82U0s0Y2t6N18tdVRLdW9Kb2N1elAzWUQ5QS1EVXJsajNibHQ0TXJkUXNRcnhlLXJ3VlFxWU9INHhGOUNHbTNiZ09wcmFlenEwdVBod1FuODRGc2k1Z0lmN1lfSEFFNHowZ3VCNTZVVWtnSUJ1YWdFMDNzbkNMR3JaZ2ZBOEJuR29xS1FvT0JvcjRrcnFRb2RRb3BRWmZqaHNoZzNsM3ZOVlk1YXNMOUIxeWNXenFYSkVVSTd4R0R1eXJRd0FIUEVqZGw2dFRudEo5Z2hzaGJHRTBuWUFXamxBWV9Ud3lR?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:46:52+08:00"
+  },
+  {
+   "title": "健康網》台股害晚上緊繃 中醫建議按這穴位",
+   "link": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE90WkNCVUlHWUJCTU9YekZHYzJTbkRjdmdNMGRVVmZoYUxqeFJrNzYyZDVjN1lQN0tMWE0wdk5nZGdLblpMRzl3b2xZOGg4dXJtbk1US0M1SU1TdjluLXVtNFBUN0o?oc=5",
+   "source": "自由健康網",
+   "tag": "台股",
+   "time": "2026-11-26T13:42:00+08:00"
+  },
+  {
+   "title": "張惠妹親自操刀新歌製作唱盡人生遺憾 建中、台積電演出行程曝光",
+   "link": "https://tw.news.yahoo.com/%E5%BC%B5%E6%83%A0%E5%A6%B9%E8%A6%AA%E8%87%AA%E6%93%8D%E5%88%80%E6%96%B0%E6%AD%8C%E8%A3%BD%E4%BD%9C%E5%94%B1%E7%9B%A1%E4%BA%BA%E7%94%9F%E9%81%BA%E6%86%BE-%E5%BB%BA%E4%B8%AD-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%BC%94%E5%87%BA%E8%A1%8C%E7%A8%8B%E6%9B%9D%E5%85%89-054122704.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:41:22+08:00"
+  },
+  {
+   "title": "台股收盤大漲956點！台積電小跌 PCB記憶體5檔熱門漲停",
+   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E6%94%B6%E7%9B%A4%E5%A4%A7%E6%BC%B2956%E9%BB%9E-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E5%B0%8F%E8%B7%8C-pcb%E8%A8%98%E6%86%B6%E9%AB%945%E6%AA%94%E7%86%B1%E9%96%80%E6%BC%B2%E5%81%9C-054108263.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:41:08+08:00"
+  },
+  {
+   "title": "301關稅台灣鬆口氣台股上揚956點站上39K 台積電收黑| 財經焦點",
+   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE9uRVpFejQtcEcxelk3ZkJNUHk4OTdmWF8tR0xDYjREeDdORE5aZ3VhQ0hNYXdCWS05UlpxZjhfaXlmMDdlVmVlaDVxdzVkaHhMYlVGeGNpckJvWVVk?oc=5",
+   "source": "太報 TaiSounds",
+   "tag": "台股",
+   "time": "2026-11-26T13:39:33+08:00"
+  },
+  {
+   "title": "301關稅台灣鬆口氣 台股上揚956點站上39K 台積電收黑",
+   "link": "https://tw.news.yahoo.com/301%E9%97%9C%E7%A8%85%E5%8F%B0%E7%81%A3%E9%AC%86%E5%8F%A3%E6%B0%A3-%E5%8F%B0%E8%82%A1%E4%B8%8A%E6%8F%9A956%E9%BB%9E%E7%AB%99%E4%B8%8A39k-%E5%8F%B0%E7%A9%8D%E9%9B%BB%E6%94%B6%E9%BB%91-053933362.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:39:33+08:00"
+  },
+  {
+   "title": "美股节前深V，反转成立了吗？",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE91ZjkyVzhfZElrQzVTYTBjSEhfWXIyZnNwN1dYSXBMN0NlbGtMaGpFZ1RFWDNweHo1NVI0T29jV3pidTV4Y19EWUlfWTF4SGYzV19aUU51dlc?oc=5",
+   "source": "CMoney",
+   "tag": "美股",
+   "time": "2026-11-26T13:35:33+08:00"
+  },
+  {
+   "title": "美擬加徵新關稅 日稱「令人遺憾」否認產能過剩",
+   "link": "https://www.cna.com.tw/news/aopl/202611260130.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:35:32+08:00"
+  },
+  {
+   "title": "台股開高走高 個股、零股成交前五大 除台積電全數被 ETF 包辦",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9nQm5CWUxyM2pVcm9DeUhaR2lwTjhLMWp3cFJ6Wi1zOXc0UTBWNlcxbWtacl9tR1U2VXd3aWptZ0tvdjNCV1hoa3ZPeVlyUGVFVnBz0gFYQVVfeXFMTVJLNkY4SmVJMzVWM3k2eHZhMDl0U2VWTXotTHBLWVFfZnFnd1F2ZENXWTQwemtva0hEeGlFRVhGRzBMd1pSZHp4WVo5MFBJWm9wVll0QUJ5Tw?oc=5",
+   "source": "UDN",
+   "tag": "台股",
+   "time": "2026-11-26T13:34:52+08:00"
+  },
+  {
+   "title": "和泰車物流轉型 斥資10億打造楊梅智慧物流新倉",
+   "link": "https://www.cna.com.tw/news/afe/202611260127.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:33:24+08:00"
+  },
+  {
+   "title": "惠譽：股市震盪對銀行和壽險衝擊有限 券商信用風險仍待觀察",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654128",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:30:11+08:00"
+  },
+  {
+   "title": "調查：歐洲半數工企陷財務壓力 370萬職位恐不保",
+   "link": "https://www.cna.com.tw/news/aopl/202611260124.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:27:17+08:00"
+  },
+  {
+   "title": "年收130萬砸1420萬買房！僅4年因「1變故」 42歲男崩潰喊「不該買」",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654040",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:26:58+08:00"
+  },
+  {
+   "title": "美股驚魂後拉下影線 低軌衛星股亮紅燈 台股一度上漲千點衝回3萬9",
+   "link": "https://news.google.com/rss/articles/CBMingNBVV95cUxOZUt2QmladEh1VHhVcS1EbzJDNFkyWW02RzJFS1RySEpYX0tLZkF2V2R5a3JuekQ0RXhPTy1WcHJsT1Z6ZUNIMkV6UThTV1BIUGFMcUNiN0NlMmJVZkNrd2k3LXBoSTNXdjlaQzM0YWF5WHpSQ0UyMnFHRlJ0OXk0Z0Ntck9RakszQ2hPODVsZEhSNVZBd042NGZWX3VPQTduRGN0SF9NUXJOR0Q1X3U0NVhxaXY5NFFxRDktOG5KcGFnRFJ1cHVhTEJtRHVEVFpjVnNDVGZLbEZjb2FXWmtrN1FNNFFjbEtZUWt3SjhVdndvTDdFR2Q0WVM0T2Ixbk5mTk5rLUFndmRXVFJiQmpfX21CM0VJaUVHalJBR09SNTZST0lTUTI4WjlRSElsOHNLWHlxUl9tTGRZZDlkbm5QNHhscGZoR0NFWmNmM0tNWTdvR0dnemUxNzlPWXp4Si0wcmN5QURIT2RsbEZJWTktWkNHYlAwTlluTW1XckRydTZ0cXRfYW9BemVuSGx5b2ZGamVMYjNEcHJLMUtMRWc?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "美股",
+   "time": "2026-11-26T13:24:02+08:00"
+  },
+  {
+   "title": "昔每小時只賺32元！他曾發不出薪水 如今公司「估值衝破320億」翻身心路曝",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5653758",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:23:23+08:00"
+  },
+  {
+   "title": "南山人壽攜手星展銀 推免插卡續期保費授權服務",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654122",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:21:13+08:00"
+  },
+  {
+   "title": "穎崴：AI需求續強明年業績訂單看增 產能擴充供不應求",
+   "link": "https://www.cna.com.tw/news/afe/202611260122.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:20:13+08:00"
+  },
+  {
+   "title": "穎崴法說會行情開跑！董座：明年客戶需求相當強勁 全力加速擴產搶攻市佔",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654123",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:19:45+08:00"
+  },
+  {
+   "title": "台股注意股標準擬放寬 最快年底上路",
+   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%B3%A8%E6%84%8F%E8%82%A1%E6%A8%99%E6%BA%96%E6%93%AC%E6%94%BE%E5%AF%AC-%E6%9C%80%E5%BF%AB%E5%B9%B4%E5%BA%95%E4%B8%8A%E8%B7%AF-051826402.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:18:26+08:00"
+  },
+  {
+   "title": "台股注意了！29檔處置股出爐這2檔撮合時間最長| 財經",
+   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE5sZTFFSDNMM1JDcXVrSDlZYWxycEFidmhOYUlLUkJVczFYd1h0VjNsb0dSc2hGTUY5NnQxa0JtNGgzOTFaaW1NTkR2SnAwcExqT185c0w1YXRhakU?oc=5",
+   "source": "Newtalk新聞",
+   "tag": "台股",
+   "time": "2026-11-26T13:15:34+08:00"
+  },
+  {
+   "title": "台股注意了！29檔處置股出爐 這2檔撮合時間最長",
+   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%B3%A8%E6%84%8F%E4%BA%86-29%E6%AA%94%E8%99%95%E7%BD%AE%E8%82%A1%E5%87%BA%E7%88%90-%E9%80%992%E6%AA%94%E6%92%AE%E5%90%88%E6%99%82%E9%96%93%E6%9C%80%E9%95%B7-051534647.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:15:34+08:00"
+  },
+  {
+   "title": "富邦黃昭棠看台股明年穩中求勝 盼不再「仁勳」惶惶、大家「Jensen」恐懼",
+   "link": "https://tw.news.yahoo.com/%E5%AF%8C%E9%82%A6%E9%BB%83%E6%98%AD%E6%A3%A0%E7%9C%8B%E5%8F%B0%E8%82%A1%E6%98%8E%E5%B9%B4%E7%A9%A9%E4%B8%AD%E6%B1%82%E5%8B%9D-%E7%9B%BC%E4%B8%8D%E5%86%8D-%E4%BB%81%E5%8B%B3-%E6%83%B6%E6%83%B6-%E5%A4%A7%E5%AE%B6-051224794.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:12:24+08:00"
+  },
+  {
+   "title": "美關稅定調15％不疊加？台股暴力反彈千點太早了！報告偷塞「25％未爆彈」台灣還卡這3關沒過- 上市櫃",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE1zZnVDQ3FYQkNPd2FQSTdUT09wWURtVkpCNjFBMjkxVW5nSkxaRUFFZks4X3BSLXdfQ3RoamtuZEZmQmNmVlFnWHZ4XzU5VFVYS2ZHNVc4LWVKem4zYlRrQnpISU55amM2SUE?oc=5",
+   "source": "旺得富理財網",
+   "tag": "台股",
+   "time": "2026-11-26T13:08:27+08:00"
+  },
+  {
+   "title": "Gogolook股價近一個月重挫近4成！財務長揭下跌原因 明年有望首度配息",
+   "link": "https://news.google.com/rss/articles/CBMirANBVV95cUxPMk1CNVFiaU0zVERvcGdPTTUtMkxLTnN4b0RNb3lFQmZxUkRPVDhiaWo1U0J6MTg0Sl9uNW5lNS1QeHJlYy1NejdqeDdSOFNsTHlndjB5c1Jfb2hNRGw2bWFZUElXU3M5UmhUb3NBbDFvS01Lel9fWVFKMEFxVFhmbmhLRjhzUWd6Q2RJM2ZtOTVUTzR5dGtuR0RyMVB4Yy1xWHdTWWFuY292R1lMYWZSUTZlWUl2UjcwaUJRUkxocjJHanJ1a3pIRnJER3F1SFFBSlJpY1V0MklNQXFlMmtVdTlzT29kTmI3T0Vtcm9WQW0yTE9xUlBCaEVNUVJnWENKUFRGRGlKaUt3RGY4YmpITzl1ZXpJRnNWVnJoVlZzZW1zdUpIU2JqRUdfa1dtYVFmd1RXM0tUNXM3YS1GcHNMYVZldS1xcHMwWW5WQ1BmcUU4OXlNS2pLaDhGRXpMbkpreTZYR28tUGpHR2ZZUkVDX0c5QUJFdDhsd1JHbVk4SzdmeEZQbEg2bUo2UWxiaU9ta0VCOHlLdDRjUC1ObklZdVdDVF9tLUR5WDJQVA?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:07:11+08:00"
+  },
+  {
+   "title": "泰柬衝突波及零售 柬埔寨7-Eleven門市12/25全關",
+   "link": "https://www.cna.com.tw/news/aopl/202611260116.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T13:05:00+08:00"
+  },
+  {
+   "title": "台股大跌政府該護盤？他憂台幣才是致命危機：外資賣股恐掏空外匯存底",
+   "link": "https://news.google.com/rss/articles/CBMixgNBVV95cUxNMVREZng5bW9sQ0NJR0VlWmx3VnJ0NUZRTFJqYnFBUXB0VU9QUjJXTi1qVllrMUlua25hQmM4UjlRZ0hBWENFcENLeUJYUXVRbVoyNHRrMXVWQXVVdDg5a0lKbjJPcmxIUzM3WHhtTmdiV3N5bGxlTFA5akNMYU53ZVptLVZkVEdpTGt6bTY2allJbTE4Nmtfb3dMVkNDQ1Y4bTV0QXlsRmRlcHF3Q1g2R1c0RlJYbnVPQUhKaVNlYm83RFJ6alhPRlZQa19JRFZSQlBydUhhMUh0dXA4M2hBQ19idTlQUmFkNEdLdTF2T1JaaTd2UzBRUkhvMC1yRy10NS1tSEdTa3dHU05iaVRQa2c4SnFkRGNFcFZzNUNiS3daRDhEVGY1YU9GdDhzT29RckZRZGxpUzVYZklYMGVHQmMxdmFmMl90b3NzUHRCUTBaNFBVb1NNaTBoOTFGM1JVQlNrVW91NTFjMzBKMWZhajFheFlyeVdXZW10R2RCa2Nvc0gwMkU2SzR4WGU4UWhVUjVHS0g3cE9Id2xQckNQTzJtQW91ODdoTW5Pd2haNzFNVjZHVE1naVVGSE5FTkVTckJuTlV3?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T13:02:47+08:00"
+  },
+  {
+   "title": "《美股法說》HPQ4營收增9%，推進Edge AI與高階PC",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNbThYTVFNZVZXTTllY3lVN1Z1NnFncnNVM19YZWFuNUk4RkpNcWxRQjI4ekRoTVhINC16bk9CeEVzaVdqeGxtSEhhX0tBOGY1UHVrakZZbS1EUHBJZFlqRUk1V0RPUGx3VjM3am9tQTBVeWdhd3FhLUFpazljNm9UWnFUWUxKb2ZTWkVjQUEySjdadw?oc=5",
+   "source": "台視全球資訊網",
+   "tag": "美股",
+   "time": "2026-11-26T12:53:36+08:00"
+  },
+  {
+   "title": "惠譽:台股波動不致影響銀行/壽險穩定性 券商恐受衝擊",
+   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxOTldUa2pOZkN2MGNuZHViVjJVckFVYUxHV2NjQ3FZYVlEWG92dm1fMDJrOHRhWTFOckxTNGtfNWE3d2JQTmk1YWpNem5xYlV3T0VzMUtvOVZrUHZBb0UyNm5RWTlqZURfRy1PTWhTRmRYd1ZPaGNCZnFaSXRoRFZ3VXNYVjlwMkdaaUJaT1RrNENqUQ?oc=5",
+   "source": "台視全球資訊網",
+   "tag": "台股",
+   "time": "2026-11-26T12:53:32+08:00"
+  },
+  {
+   "title": "看好台股明年續強！中信投顧總座：農曆年後上看5萬點",
+   "link": "https://news.google.com/rss/articles/CBMi5wJBVV95cUxOMEJfcWVKcjZGcGQ5NkZmd3RsNlk3a21vM3ZIMnNrZ01INjUxUnc2ZmdoTDB2QWVjSXNPYVJMaG9TYmExWms1aGNjd3hNc0cwZm1CN0lxV2lram1NMjRuUHgtZU4wdV9kVUxSZEJVZWRRTDJEU2pLRVE0NGdMZl9lTWxQN3M5X01GZUl0ay1MRWZSRmlKaDk4bm11NzZOcnJ5Z3BrYjRNOS1STkZ2MHVORnZjeE5nVDhKMlRCWHRocnJnZWlJY1JGQzl2M2RENklZWUZKUnktbjFGMTdtVmgwWS1sZXNTZ2RhN1d4Q1JYQUlFOVU2Q2F2anVSdVVxRUF6Mk5vXzgyYjdDSGNlZ0d0dFh1NWx1UTJhdkdnS0NfZnV1akFkb3ZqaUNhNGQ0WDE4Yl9WOVBob0ppS1h3V0M5ZU9xSVVFSUx2VEVqbl9LNkZtQWVFZVBjSUN6NEpkRzJMaGlkZW1JTQ?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T12:52:13+08:00"
+  },
+  {
+   "title": "【即時新聞】台股盤中強彈逾950點帶動行情，南亞跟隨大盤同步走強",
+   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQXy1sU1dtNEMzT0FjWGZudG1JSVdsRV9IcUgxTHI5a05xMGpNRVE3R3otUW5rOFB0NTM0T2daRXhNUXZwWnEtV29aX0dHOHdyLVJLT01RcDVreWZRcHFLakpHb200ZFptR05OOFY3dnRSdGozTmxDekg0aDJZOUdYVVMwRkNtVFl3c09fanc5SnE?oc=5",
+   "source": "CMoney投資網誌",
+   "tag": "台股",
+   "time": "2026-11-26T12:51:40+08:00"
+  },
+  {
+   "title": "受不了了！路易莎董座黃銘賢鬆口：明年元月初要漲價了",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654093",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T12:50:40+08:00"
+  },
+  {
+   "title": "大盤當興櫃在玩！內資硬扛台股狂噴千點「低軌衛星、PCB、被動元件三箭齊發」反指標網紅驚曬買進單引暴動- 上市櫃",
+   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTFBZUkxCdU5BSGt1czItYmI3YzFCU1NOUXVhNW90WFB4ZGwyd1RxeUF3NG1Od2N1OW0yMUt6SWc0bG1YRmkzOXpNVVlTZkVoUElxTHhodFRveEdvT3dkajRQblVUcXhsb193eEE?oc=5",
+   "source": "旺得富理財網",
+   "tag": "台股",
+   "time": "2026-11-26T12:47:33+08:00"
+  },
+  {
+   "title": "輝達股價跌不停 外媒：黃仁勳不是唯一問題",
+   "link": "https://ec.ltn.com.tw/article/breakingnews/5654012",
+   "source": "自由財經",
+   "tag": "財經",
+   "time": "2026-11-26T12:46:05+08:00"
+  },
+  {
+   "title": "施羅德在台首檔ETF 00419A掛牌 首日迎蜜月行情漲逾6%",
+   "link": "https://news.google.com/rss/articles/CBMiwwJBVV95cUxQbnV6ME9JX3REUndNaE1ORUNEdFhSWXJVRG9HSFM5ajctWnVPYUFhN1QzMXZ0TzFPUHRtcGlJVUZDUUh6bjBlYUlsV2h4dVk1ZUVZZTU2Unlqd2NfcE9GalVzbE9OMW5kcGRfU0hkY0xxVE5OTC1SamEwbFJfOEw5anQtSVNzNDBaZjVNamxDVjVGMjN1VW8zVUlyWi1vbkExTENKSzh2WldqVURZY011bXdxUzNEU1o4QnZhZURzbTVRMkJLUWpfMWNpY21ET1ZiaUpUTWJvdTR6WXhpQy05TUNQaXVKdnhHR3lJRlFCZ2locjJHbzFWRHlFM0U1UTJnX2szVVRab3JBMjFiYUk4bENsSDZFVWNJWFZoMUQ2WXdsWW14aWtTekowZXlEeWtQZFl0M2dIWTFxQWZKSmk4NVRKWQ?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T12:43:06+08:00"
+  },
+  {
+   "title": "中華電股價逆勢有撐！他封「台股波克夏」讚抗跌又會漲 網後悔：早知道不賣了",
+   "link": "https://news.google.com/rss/articles/CBMijANBVV95cUxQTEdtdlZWbzJMeUlzQjhPOUszcmFrOFJ4MzNFUmJoZzZFcWlmMm1SbUFRbUhVb0g1T2stTGlYN1JyQjByQWFUc19NeWlLSzluN2ZvSHVkR0p1elcxa0JmNTRnYjNGcWV0b3NOejFrZkJ0M2dpT1lWbE5PSm1jTTZ5bHJzeTEzcVRXOVhjLVRTaFd2SVN6NzY3a1lFODMwZGxhbjNpZE5YV25ObE5vSWdQQWNob0pNNjFBUHVyRFlKOUtjRDhnRTA1SGdPMmp5d3pPVElad1RoYnpuUWVXTUp2dTZGd0N3WUptMmlJYm54X1J3X0FLX0pETUR2RTV0T2ZTWVZMeFlmY1JlcEYyN21EazVuelVBcE5UM1BzZ09BdzYtdllGbk9sMkszb1NZSzh6b1ZyMTNGQWlDQlloNnpyMHktRGdld0ViRTIwZkt2ZjVuMkpCdTF3aUFGeDZUUzdxYVJrOUVXdjdTVl9VOEg4czZJdERKeEZjRUhJZ3hpeU9ocWZxUndSbEJKdnk?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T12:41:12+08:00"
+  },
+  {
+   "title": "韓國央行升息至2年高點 AI出口帶動上修經濟預測",
+   "link": "https://www.cna.com.tw/news/aopl/202611260109.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T12:37:44+08:00"
+  },
+  {
+   "title": "台股反攻、新台幣同步強彈午盤強升1.76角收復32.9元價位- 金融",
+   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBaamdyR0IwS1U1S1FidVNaekxTVVp0VkRKVWlLZ195LVlpU0l2Y3A0TWJEcnhxS08yZzg2a0dMRkhQS3FEc1RvcFBXZXhHNjI5NFFHNVh3X19zRUpWTXpz?oc=5",
+   "source": "工商時報",
+   "tag": "台股",
+   "time": "2026-11-26T12:36:00+08:00"
+  },
+  {
+   "title": "TEL擴大南台灣布局 高雄新辦公室明年啟用",
+   "link": "https://www.cna.com.tw/news/afe/202611260104.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T12:30:34+08:00"
+  },
+  {
    "title": "美光桃園工會喊話 資方不要協商前就透過各種管道放話",
    "link": "https://ec.ltn.com.tw/article/breakingnews/5654048",
    "source": "自由財經",
@@ -36,11 +575,32 @@
    "time": "2026-11-26T12:23:00+08:00"
   },
   {
+   "title": "台股一天震盪3000點成常態？富邦投信董座：明年「狂牛」變「慢牛」",
+   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E4%B8%80%E5%A4%A9%E9%9C%87%E7%9B%AA3000%E9%BB%9E%E6%88%90%E5%B8%B8%E6%85%8B%EF%BC%9F%E5%AF%8C%E9%82%A6%E6%8A%95%E4%BF%A1%E8%91%A3%E5%BA%A7%EF%BC%9A%E6%98%8E%E5%B9%B4%E3%80%8C%E7%8B%82%E7%89%9B%E3%80%8D%E8%AE%8A%E3%80%8C%E6%85%A2%E7%89%9B%E3%80%8D-042312617.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T12:22:40+08:00"
+  },
+  {
+   "title": "美301調查結果出爐 工總籲確保台美協商成果落實",
+   "link": "https://www.cna.com.tw/news/afe/202611260098.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T12:22:21+08:00"
+  },
+  {
    "title": "台股勁揚千點 新台幣午盤強升1.76角站回32元",
    "link": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNX2JzbXNGcUN0YmtDMU5qeEozaU1MS0N2QnJLanl6TnVMQXFrSUplcjVGLU9lSFhuaW54RnQ4TmFjc3UyOXlRbDFUOXN6SXJtWENLZjRidFRNZ0hOb1FDbkZscEdrZ01zU1VldVJFUFFwVFZPSlk5RGF3WGU4dGtyNtIBX0FVX3lxTE52dXJZLVh4ejgzaFFUTzJ0anVpMk1tZHFQeUdwdWZrd1p6SjVld2xhV0NYY1pieHlvdkkyRk5nZ3ZGWjlNUXBxdDlLWTF0T3B1YmR2a2Fma2xndXNLVF9N?oc=5",
    "source": "經濟日報",
    "tag": "台股",
    "time": "2026-11-26T12:21:40+08:00"
+  },
+  {
+   "title": "Michael Burry 出清那指100賣權，也看多輝達了嗎？",
+   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFAteTVnVjlOQjhmUFpOU2hSa29IRFFZMUxBaXNUYzNJajFERDlfVUJPeUZGUF9VVHpXWENrdnNWX1I3X2otc1RwMUJXQ1Zid0EwRmYyTFRvOVdFVGl2R3dpSjN2UG0yQQ?oc=5",
+   "source": "口袋證券",
+   "tag": "美股",
+   "time": "2026-11-26T12:19:49+08:00"
   },
   {
    "title": "台股今年漲幅31.87%居冠！櫃買卻跌0.1%轉負報酬 網點1主因：難反映中小型股",
@@ -55,6 +615,13 @@
    "source": "Yahoo股市",
    "tag": "台股",
    "time": "2026-11-26T12:18:45+08:00"
+  },
+  {
+   "title": "富邦006208分割 黃昭棠：投資降門檻、配置增彈性",
+   "link": "https://www.cna.com.tw/news/afe/202611260096.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T12:18:16+08:00"
   },
   {
    "title": "台股開高一度飆逾1,200點 法人：外在變數干擾 台股前低附近反覆震盪",
@@ -76,6 +643,13 @@
    "source": "自由財經",
    "tag": "財經",
    "time": "2026-11-26T12:16:49+08:00"
+  },
+  {
+   "title": "美301關稅15%不疊加 經長：企業鬆一口氣",
+   "link": "https://www.cna.com.tw/news/aipl/202611260092.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T12:12:08+08:00"
   },
   {
    "title": "焦點股》光寶科：買盤點火 挑戰200元關卡",
@@ -176,6 +750,13 @@
    "time": "2026-11-26T11:52:25+08:00"
   },
   {
+   "title": "研調：明年AI晶片封裝台積電主導 CoWoS外溢帶動封測需求",
+   "link": "https://www.cna.com.tw/news/afe/202611260085.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T11:51:52+08:00"
+  },
+  {
    "title": "【即時新聞】華通PCB買盤強勢湧現，盤中強攻鎖漲停，帶動台股反彈動能！",
    "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxQRmsxVFpCeHJfdWRlQzBHeVJjdTd1TDdXTGRVYXNMQkllME1hRHMwUndWa1dUTmkyRm5IZmtGX1Z3UFd5YU1uYkZMNkJiVTZNc3BGMktfV0FVdVRWS09mSlk0LVlxMFhIVktGUXYwWl9tWDVlOW4wQ2V0ZGo2WDhCSElHdkxTdFpZUTJ4TmJTNGs?oc=5",
    "source": "CMoney投資網誌",
@@ -218,11 +799,25 @@
    "time": "2026-11-26T11:44:00+08:00"
   },
   {
+   "title": "中信投顧:台股本益比僅約12倍，明年高點挑戰5萬6",
+   "link": "https://tw.stock.yahoo.com/news/%E4%B8%AD%E4%BF%A1%E6%8A%95%E9%A1%A7-%E5%8F%B0%E8%82%A1%E6%9C%AC%E7%9B%8A%E6%AF%94%E5%83%85%E7%B4%8412%E5%80%8D-%E6%98%8E%E5%B9%B4%E9%AB%98%E9%BB%9E%E6%8C%91%E6%88%B05%E8%90%AC6-034400899.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T11:44:00+08:00"
+  },
+  {
    "title": "美股AI狂歡債市卻潑冷水 輝達大震盪揭示違約擔憂",
    "link": "https://news.google.com/rss/articles/CBMi4gJBVV95cUxNWndKZVI4VUotZ0U1UnBuOTQ1QWhaTC1tbWMzYTNEQnZ4OE9YMkVaZHcxdl9vWkw5MXZxRDc4dTZlZEp5eEJuZ2V6Tk1hZGN6UWVQWko5ZENoNFpFMFR6c3I2U1JRUGlMSVFscnFhMXltQzEtYUV2MEgzX2FydGsyOXJHbzNzRVpYQV9MajZQbF94NkxCb1hpdHZ0OFhJR1hGQ091dzFPSGZON1ZkTUZNcWZmcDhDa2Fza2tCa2sxWmR2eEc2a25TSHRrbGY5U1c4clBxWko1dkhVdGlRWV9XMjNEc3BJWnZOLTFibERRWW52Q05Jb2NLSzFxVkVVc1YwY3hseHB6T0FmcFVoSTl6M0tWWDVfRUlhNGIwWlloTkpuSzM3WFduU1RncHNYdWNVU2NMVHBNU3VVN3ZSeTZjNGExbXptcERNQTNoWEhJcEgwVnI4VEowVDRBTkV4ZUxZVmc?oc=5",
    "source": "商傳媒",
    "tag": "美股",
    "time": "2026-11-26T11:43:21+08:00"
+  },
+  {
+   "title": "調查：6成亞太金融機構指詐騙變複雜 平均損失逾4億元",
+   "link": "https://www.cna.com.tw/news/afe/202611260081.aspx",
+   "source": "中央社財經",
+   "tag": "財經",
+   "time": "2026-11-26T11:42:44+08:00"
   },
   {
    "title": "專家看盤》感恩節效應發酵！台股量能恐降溫 買盤回溫族群來了",
@@ -258,6 +853,13 @@
    "source": "Yahoo股市",
    "tag": "台股",
    "time": "2026-11-26T11:40:03+08:00"
+  },
+  {
+   "title": "1張「21萬元變3萬元」、不到0050的一半！006208擬1拆7 明起電子投票",
+   "link": "https://news.google.com/rss/articles/CBMihgNBVV95cUxNd0p4RjRlOVZ0amRleUZfN3lQZ0pTb01UdFY0WUFIcUEzRkE2WXdSSU8tS1lFX1RjMkppVHpKc3BSNGFfblRxdXlOOXoyZXZocjFpUUNaLVBMUWtvR1VrVXZFc01USmJpa2lsOGNoakRpS1ZuZnBQQVZ1YUdWRzVPaVZHNTZVUFpwVm5BaGRSczJiM1AySGl0VHFSdW9TWlJMN3p2Nm92UWFnWElRQjI3RFdieXRQdHFHb1NzWDJfNlJoVUpnRUsyT2h1Mlp6c3FLel9DcGh5eUk4MWVTdWFlWjg3UmNYaWhfRGhMTmxoNGRmeG9uaG9peWRiSVdPcFI0UzFwNjgtTGJEcU4wdnVDY25vYXB5RUpfRjFCX2tMZklFSUpaeVN3OGIxaEozMDZRNWtMN2FkTDhrWm9BRkZFYVRlWmhqU2RuZTZFYlFiRDBmZENnV0JURjN2VFlVTnhHN0lRUy1LUE16OGh3dHZrOGxVZjRINC01WHUxS2cyQkhqOV9sSlE?oc=5",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T11:39:02+08:00"
   },
   {
    "title": "美301調查豁免清單 台股14廠快筆記",
@@ -300,6 +902,13 @@
    "source": "Yahoo股市",
    "tag": "台股",
    "time": "2026-11-26T11:34:10+08:00"
+  },
+  {
+   "title": "301關稅疑慮緩解！台股飆逾800點、新台幣勁揚逾2角重返32字頭",
+   "link": "https://news.google.com/rss/articles/CBMi6gJBVV95cUxQc2lFa3lMay1wSGh1NE5jSTZJNVNUUUZGZDliZVlTU0JJUUpDTFZUUFFpVGxvaW9EMEhCYThrbVFQZG94Wlc1NGxZb2VBbmUwNmdRVzFmdkFYdHpIcHlISi10V3N5bC1SZnMzQ29iLWVzakU5Uk1pVnAtNFBNLVJ0cC01R2RyVU55MkRqbmRFWnA4VnY3bDNXNFRLTU05TU9fY3czUHVpMGwweWsyQ2diai0zcmZNWDY2dC1TZWE5cFFsaFlpd2d3TzQzQVRKNmZ5SEEyRHZVdWI5SlJRdlRFNXBDYk9qUUQ5RlRPd2U2UUVtQ3JyUDBhdUtIRXJjUmdzdmFrX3c3dVVLSGtHYk1KY0diaHFqTC1CZ0pwbHdweV9STWNsNHJmRmdxTkNJQ3o5RHRFOTlBbnlMcHh2ZElGMklRc192QnpZRmZYaExuZ1NhR0tfWFMxUVYtelpYSVg3NjdDS1Jndkk4QQ?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "台股",
+   "time": "2026-11-26T11:33:40+08:00"
   },
   {
    "title": "2026美股投資行事曆！美股今感恩節休市一天、休市時間、美股開盤時間（含美股期貨）、那斯達克23小時交易新制。台灣時間、美股夏令冬令時間交易對照表｜豐雲學堂2026 年 11 月",
@@ -358,13 +967,6 @@
    "time": "2026-11-26T11:22:06+08:00"
   },
   {
-   "title": "《美股法說》HPQ4營收增9%，推進Edge AI與高階PC",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBIdkZtaElxbmtiX0otMHFnQWxseDc2bVQzSDZkS3l4T3JOT3loN25vXzlIa0QxSEpMUWxyb2I4bHV2Sm1Dc3ZjVjd4T3V6UzY5Q3Y3ZmdHWmk?oc=5",
-   "source": "CMoney",
-   "tag": "美股",
-   "time": "2026-11-26T11:18:11+08:00"
-  },
-  {
    "title": "《美股法說》Deere獲利揭曉，Precision Ag數位採用擴大- 股市爆料同學會",
    "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zRnVMYmdVSjduVm5iQk1WNUswa1FFcFJQNVhyTUNfbERlTS1yVWh3NkFUdE1tbElwOGF1WllURzFNMDdFZEJrMm5UUVl3Y1FtV2x2bkRBOHY?oc=5",
    "source": "CMoney",
@@ -387,17 +989,10 @@
   },
   {
    "title": "台股五萬點何時來？中信投顧總座陳柏州估「農曆年後」：明年最高上看5萬7",
-   "link": "https://news.google.com/rss/articles/CBMi2wNBVV95cUxQaWZPTE5oNjViVjJzNmRmWEtjVEMzQ21BSkRlSFhZRkVJSWp4TnFMVEFBMjE5dndmWnEzYjBHWndoa0tKTWZCTWNFOG1kNkJBWkFuYjVzMkZyUmRfZTJBWVctSkc2TXJya3pxSzA4QUVleHE1WGRkRlF4bmcwVDFYUFpzYVhqWjJNdnh2b183RXZMTkROSVNrR1FSbmwyQVRRcDBxaFBsaEpuRmRzcjM0QWMzbXRZdGhyb3VXeEYyaTBUT1FPUVdHR0RWcjlTaHRNSVRRR1QyOGx3NnAtUE91QnM4V0QxNG14d0x1NmtDX29MQVhXeHBUYlBiN0JQdnFMQnN5NEtNUERkZXhRMDU0RllXWXZMcUhaQ3pMRHVOQ2RET05ZcVZHdjlVYzdMN3VDc2hlTDJpdGE3d253WTcydHhiTmpsemNvQjNLU2hwaURyMzFmVTRtbHZCVFdNQ3RybzBDMy1LVk1UU1dPemNoLXFqSmVrMnRvTWdEdGlhS2NUekc1bmRFRmJ6MVNlZ0hQMmpOSGtCcVRPM0VSZXlHOC1LbzlRZlYxVGlic09hcGJkR1RKWVEyeU9LN2VwbTZuX21CU0VsOXkxTXlxbEZQR0xJZjN6TzQtbHd3?oc=5",
-   "source": "Yahoo",
+   "link": "https://news.google.com/rss/articles/CBMi6gNBVV95cUxPWnBpeEthRUlLR0xNc05VV0dFeW9OZnNHM3ZwakJfZURrak0xRThPUzRDX3d1cGktaVRIUURrc05Xa0s2bXd6eHRZQVl3ZlhFRjJYTXFuUG50RFRuR0lDYjQweXR1Y2poZUx5VjRPb1pKMEFiWDhNeWlaZ2ktX2hKVmNaVWp5RWRiRWVxbzVGUEhfd0ctX1R0aUYxWGVzVTh0QXhfZzFoV2tKMThhYzI2TUhNTDZ1bjdKN0VYZXpBT3ZiRjFrQVZwZnRMUDRqRzRsVnRuUGxSVnBOdGprWFNYSTBjbkFXOVZkZFpIb1VDekVtVmdwb0YwdkpfR21CRmpGaUtXMm5QSXFvMW1vTnFZaE9faE1fWnZXVFJzal96RTRjd3N6ejU5M2FaMjBTbVEwQW9LU0hxaXk1T09PSDlZT3NQc2lBUjh5UzdPZ2kta0p0akpPek1QMWJBWFMtMGhvRmR0RUZONzhsQnRtd2JFZUNYN2xPRGV5MmdnVU1xbEQ4TGJvY2hibzlMMzVGY3dWdFVkOE5od0hWa2lHckc4TGREUEdkQUZKUVNhRUxnVkVFUXhrTTduRDZ4N2NRbTBQb21qbXozdE8xS1JoSHp1Y1UyVEpWQlFORlplZFZqZnhYbS15SnRsaUF3?oc=5",
+   "source": "Yahoo股市",
    "tag": "台股",
-   "time": "2026-11-26T11:16:21+08:00"
-  },
-  {
-   "title": "301關稅疑慮緩解！台股飆逾800點、新台幣勁揚逾2角重返32字頭",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9venVpbVBPdmlTRmsxSHdIVndocmJDY1FyYm9PVzc4NEI5OGdNRlpkSnJZdnhhTlNIN3VXYjdZcjZPM0wzVmQ2dHZ3VW9uaTFTdk1JQTZ1eVo?oc=5",
-   "source": "自由時報",
-   "tag": "台股",
-   "time": "2026-11-26T11:16:05+08:00"
+   "time": "2026-11-26T11:17:20+08:00"
   },
   {
    "title": "美國301關稅利空淡化 台股盤中勁揚逾1200點",
@@ -491,6 +1086,13 @@
    "time": "2026-11-26T11:01:22+08:00"
   },
   {
+   "title": "給足台積電面子！川普首度出席亞利桑那廠擴建典禮 魏哲家親自接待",
+   "link": "https://tw.news.yahoo.com/%E7%BE%8E%E5%9C%8B%E7%B8%BD%E7%B5%B1%E5%B7%9D%E6%99%AE-%E9%A6%96%E5%BA%A6%E5%87%BA%E5%B8%AD%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E5%BB%A0%E6%93%B4%E5%BB%BA%E5%85%B8%E7%A6%AE-030100742.html",
+   "source": "Yahoo股市",
+   "tag": "台股",
+   "time": "2026-11-26T11:01:00+08:00"
+  },
+  {
    "title": "重電股新兵宏于電機上櫃首日 蜜月行情失靈跌逾一成",
    "link": "https://news.google.com/rss/articles/CBMi8AJBVV95cUxQMlQ4bXdSa1hyOEptR3ZNRHdtZ1ZtMDc0TW9tNmlRZ2JCRHdkN0RPTFJsd3ExeXB3U2JCUWMtemNIVWhORjRBUDdjOHFVRU9WdGRwanJuelZvYjZ1b084QWJ5WC02eTZ3Z2NodWxQYm5SRWxhS184SmFKSDJtRS05elh0eXpieGlGVVo5TDlZTldDcUxCQVg2LVdNbWJhSVI4dlVFamlzekpUZjVsWTJDUlF3SUp1eXhmNjNrbWU2N3BxYk1IRngtYkxOOE1DTEo0RU84QXFDbUNoVmtROEF1RUEwZHdfVzZkcFFJMEZNc05lUXJIbzM5UVdDUlY1WU9idE5iUXMyZ3haQ0FKbWtvcHhBdUgwcG15REZ1SlZKZ0FUa0RxWTFRMzFUd0FJN3dzSnRMUnhBNTNZdHZtUnRYUjZTQkZZdFJTQ0xEZy1Yd3NWOU1mLTdQbUY1LTZldVd4SVgzME9KU19wRE5NWmVEMw?oc=5",
    "source": "Yahoo股市",
@@ -503,6 +1105,13 @@
    "source": "自由財經",
    "tag": "財經",
    "time": "2026-11-26T10:59:39+08:00"
+  },
+  {
+   "title": "台股重返39K！3類產業齊揚 盤中漲逾千點",
+   "link": "https://news.google.com/rss/articles/CBMijwJBVV95cUxPNDVxZzR2eF9pa1o4aHFsSU1oWUtTdk1oanZneVN5N2toUkNjbGVSZVJ3dHE5bDBPZjBCaDhRSUpBeDhHaklsVW1TdGZLVng2WVZVSEY4SHhhLTNobTBzZklzczNyMU9aVWRrN2NmaGpiM1VidjZyMmpfVTVldXBFVmF3U19QZlBndE1rVks0MlZpWWNVbWlkX2ZIQnYzb2hfYVR4S0ZWeFozRUpWekIyTThSNC0tQkJrbklEQVNOalh6Nk4zWjB6NTNTZWxUM3F6eFhXd2dxZ3d3WGNBc2xoZVR0M2wwaF94akQ2a01NMTJteExsQWk0VElDbGZhS05IYjhRWk1qSzNLNG1tNWpV?oc=5",
+   "source": "Yahoo新聞",
+   "tag": "台股",
+   "time": "2026-11-26T10:59:05+08:00"
   },
   {
    "title": "台股暴跌散戶爆斷頭潮 怒轟政府護盤反變「外資逃命波」",
@@ -540,11 +1149,11 @@
    "time": "2026-11-26T10:50:56+08:00"
   },
   {
-   "title": "台股重返39K！3類產業齊揚 盤中漲逾千點",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%87%8D%E8%BF%9439k-3%E9%A1%9E%E7%94%A2%E6%A5%AD%E9%BD%8A%E6%8F%9A-%E7%9B%A4%E4%B8%AD%E6%BC%B2%E9%80%BE%E5%8D%83%E9%BB%9E-024958726.html",
-   "source": "Yahoo股市",
+   "title": "台股今反攻11強領漲 但1風險週五必看",
+   "link": "https://news.google.com/rss/articles/CBMijAJBVV95cUxQYkhuVS1TTDlWektmZzZMcC1nT0xsVGRPVnV4QmliOWFCdHU3cUh2STNpTFJibXdkaUhwQktTb1FBX0xqcXZOX01nZm40OV9jeFNaUjhSU0lxcHJ6TExDZnBrTC1fWVZiZXNoNlR1WGs0S3lyeEVDT3JSMGVoUnRna3J3OGRlUUE5ZGptamRZSXBCdGxyanVNajNpTU4zQmpRWEVubGFjQVdXSXlEYVpObkVyY2tIaDdSOXl3NEJYSEJSMVR3N2l6eWtaN3BNQXNodDh6TXQtSmI0TlZ6dUVKVTJLbkREZUVqeVl2SkVUb2J5WVBlZ1lpRW9pVDFielJQaHIwQkpXVUdrbzN5?oc=5",
+   "source": "Yahoo新聞",
    "tag": "台股",
-   "time": "2026-11-26T10:49:58+08:00"
+   "time": "2026-11-26T10:49:36+08:00"
   },
   {
    "title": "亞股跌深反彈！日經一度飆逾1200點 韓股漲逾2.5％",
@@ -601,20 +1210,6 @@
    "source": "中央社財經",
    "tag": "財經",
    "time": "2026-11-26T10:40:29+08:00"
-  },
-  {
-   "title": "台股今反攻11強領漲 但1風險週五必看",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E4%BB%8A%E5%8F%8D%E6%94%BB11%E5%BC%B7%E9%A0%98%E6%BC%B2-%E4%BD%861%E9%A2%A8%E9%9A%AA%E9%80%B1%E4%BA%94%E5%BF%85%E7%9C%8B-023900944.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-26T10:39:00+08:00"
-  },
-  {
-   "title": "惠譽:台股波動不致影響銀行/壽險穩定性 券商恐受衝擊",
-   "link": "https://tw.stock.yahoo.com/news/%E6%83%A0%E8%AD%BD-%E5%8F%B0%E8%82%A1%E6%B3%A2%E5%8B%95%E4%B8%8D%E8%87%B4%E5%BD%B1%E9%9F%BF%E9%8A%80%E8%A1%8C-%E5%A3%BD%E9%9A%AA%E7%A9%A9%E5%AE%9A%E6%80%A7-%E5%88%B8%E5%95%86%E6%81%90%E5%8F%97%E8%A1%9D%E6%93%8A-023800572.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-26T10:38:00+08:00"
   },
   {
    "title": "WhatsApp叫陣LINE？跟進推出「排程訊息」新功能 還多了2項優勢",
@@ -748,6 +1343,13 @@
    "source": "Yahoo新聞",
    "tag": "台股",
    "time": "2026-11-26T10:17:35+08:00"
+  },
+  {
+   "title": "【財經縱覽】：美元失守104、黃金跌破3600，LME銅重挫逾5%，費半指數跌7.88%",
+   "link": "https://news.google.com/rss/articles/CBMi3AJBVV95cUxQYjdfX2tBLTRzeWpiTmY4c0RIT2FMMTc1VXR3V3lsbHNWRFRKa2QzZW81U2JBQnZkcmRzWGk1T1F1dXNrRWhZT25Ka25nbUQzTkczSC1icmVFT1lmUDIyZ1VWOVFoSEFhVHMwWHU3QVVXYnAtMjZ0elU1aXZmN0p6U0RmMklBQTg4YVZwRjQxbXI2NmhDWUZCd1hMUzEzS0dTM0g3NkpiSnhGLWdKUHVRN25GNmU3TzJWSWlJdFVHa01pOE4yNy05alZzOHhyRWRDem5CWTU4YnZQRHNKV3k0alBicWtKSUs2XzFveU1Bb25MblUxWjh3cDRFUk4wdmNQTFY3YTZEN3JGOF9rQkhLUGZET0J2elhmd1NOQWRjY2pkSGFraVNLTG55YXRZR0dzb3ZFNVpOZEQ4aTBwd0VXOW9BY0JSUUxZTVo0ZUNKdUtGOEpQUnVKSkRFNlo?oc=5",
+   "source": "HK MoneyClub",
+   "tag": "美股",
+   "time": "2026-11-26T10:17:06+08:00"
   },
   {
    "title": "台股大跌不跌、大漲跟著漲！中華電（2412）防禦力掀熱議 被封真正護國神股",
@@ -909,6 +1511,13 @@
    "source": "自由財經",
    "tag": "財經",
    "time": "2026-11-26T09:58:42+08:00"
+  },
+  {
+   "title": "國家隊全力捍衛台股買超1,359億元創紀錄| 金融",
+   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1fMFRJeWNIOGw2WlNKMTllZlZOdlo1dWpyVTU4aVNHRTFVQl92NGtabEJRbWtWTW4zTWdsNE5pVlQyLVhHcVBZVW04TkNPOGhFOFRreVlHRFR4UWZuaS1qNg?oc=5",
+   "source": "非凡新聞台",
+   "tag": "台股",
+   "time": "2026-11-26T09:56:34+08:00"
   },
   {
    "title": "台股反攻近600點 台光電、國巨大漲 PCB 與被動元件成買盤焦點",
@@ -1870,6 +2479,13 @@
    "time": "2026-11-26T07:28:00+08:00"
   },
   {
+   "title": "今感恩節、明黑五「美股是否開盤」？ 年底前休市日一次看",
+   "link": "https://news.google.com/rss/articles/CBMi8wJBVV95cUxOS0dQZXltWXQ2Q0ZpamhUazZ6X3Q2TDE5eUVCUXJxZHBqVFpYWkxJZ1A1ajFRZnZHSmdiTjBkMW00UmxhbnM0TlpFMXBqalZLQmJEMThJV3VKd0RSa2RIRkFGSU5Ed1QxRUtqV0F5VVk4NTFZeXQtU0RkZGNyaV95bWYyRm5jVm5fd2pPUXIyd2EydlNmVVI1ZlpJN0JjRUIwcDZRUjBXdTFWR1VtQjZNLVZkOVgxMUQ1SUJfSnQ5cWJwNkQ5WGRUZ0hWUVY0Q2lKTVhMd2FMOXg4Sk91VDFyQ0ItSnpyMlFDOFZkc3dTNG91d0QtQzVXcVh2R2VKRUJNQTloQUNaX0NrWjV6ZWY4V01HTXJaVERlbUhaSVN5ZVlzR0w4Vi1BQlA5Q0tmZnQ2VktKbXN4b2lsNVBtSHlCZDB0aTBtLS1HSXFWQ09IVkxwXzlxS1RqUDRGalJST01nVXkzdTYxck9iNHZpRmZ1cVZzUQ?oc=5",
+   "source": "Yahoo股市",
+   "tag": "美股",
+   "time": "2026-11-26T07:28:00+08:00"
+  },
+  {
    "title": "台指期夜盤殺2190點竟翻紅！道瓊狂拉逾千點上演大逆轉 輝達仍挫3.9％、台積電期貨收紅",
    "link": "https://news.google.com/rss/articles/CBMi9ANBVV95cUxQQ1pqSHk0c3VuT1BjX19YTksyR1BOWE1CWEY5emdKeUYtY2pHUVpQVXRhSkYxT0hIdUxQcnBpQWdlbmJ5enBwOHJkcnNsaVBtY2lsdkc4VWttNzJCbGpBQVFvYkFRby1CNm93RzRLRk8xQWwweFVHQ04yWHNLU0RCZXlINFdjcU1RNDB5YXpoaG15ZWpXQkZISEhaaU55SzVkR05RZDlwYU83LTRfblRhMVZ3c1MwREVNaFhqemllX0ZpbWRFQjBaN1NBQWxfNHNyd2NoNjZEbnAyZS1PTE9uMTFfczNQMU91UDV4djhmcEtGOG80TWhGR2ZPYVBEZE1wRkpnWjVDV3B3MjRYbDhxU3NkNGxJU0hzMlMxTlppWWVMSnp3RTFXZzdicXl3eDJsVGRDTGFsT3ZkaGxWaDM1dnZKUWJzRzcxUjk3TjRmYWZSNjc2UVV5R19ZYUxlX28xOEl1N3dhOUtwcldGek5kYThQVnZoUFRSTlFoUExIWVVvRk95enQweDFWbmRKbWtNVEFvLWk5Nk10ZWNpb0hhdnNPeWlGMm9Kbk9DRUE0c1ktZUtnNnRseFNyaUtObEVNTGd5NjdsM3ZKNmt6WFJRX0J3TDVwOG95NjVXSjg5Umh2WFdZeGFXNzBjM0dZekxuSEVwWg?oc=5",
    "source": "Yahoo股市",
@@ -2473,10 +3089,10 @@
   },
   {
    "title": "《強勢美股特報》IP,DHI,HSY,TXN等4檔",
-   "link": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPUG12dzdVX2tuSDl2S0Q2Z2FQdVhpZTNLOWRLUVBqY1dfdXlQLWs3Qkk1ZEVvUDhMSGxEd2ZvNmtDU2RQU2kxdk5CQlI5U1hmYWZNM3o4by1FaWVIeFRBalZuNFlMSHlVcWZBVDgxWEZvTTF2cmR6U01wT1BHMDd3LUlRY0dNN3JSNUlmdjIwQ0N2U2s2ZGpxbnFFZzdhTm91eXRFbTFHRXE0enc?oc=5",
+   "link": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQc3lwMFhEQjQ0dk1hZGt2aE9mUDRFSlBYeWlzaFRTb3RHZzdPLWVvdWdYcDBBMmd1UGdsRENGa0ppeEJaRUFtZmJaZU1FTWs2Nnd2NUt3NG5Zdnc2VUwwY0ZiQzVhSVNsWkR4N1F5Mzc3cllHcWJsUDlFMDdQakMyVUpRWEd1c3pOUkdKWS1iMVdoM0p4WUpXZjRYUWQ?oc=5",
    "source": "台視全球資訊網",
    "tag": "美股",
-   "time": "2026-11-26T05:01:17+08:00"
+   "time": "2026-11-26T05:02:23+08:00"
   },
   {
    "title": "美股收盘半导体与存储、加密概念股走势分化，Bitdeer Group涨超9%",
@@ -2844,10 +3460,10 @@
   },
   {
    "title": "快訊／美股血洗！費半、台積電ADR崩逾7% 台指期夜盤狂瀉1983點",
-   "link": "https://news.google.com/rss/articles/CBMi3wJBVV95cUxNR0JkQkpFN3RERHNmUFFGSmhKM21xX3VCYkZYcC1iSjNnYlVXSmtJWmFvM3ZRbG1lU3NTc01tYk1WYlgwSVg0VHlGMDZkekphaEd6Ym94ekkxbkhCbzF3R3pxcHo4T1VnN2htNXZXbGJ3M2NsQm5lOFFOVkt1NzhiTHQ2TVZhSFBFNlIzaU4wRHpyb3k3MkFNSjlhQTJLdjB4MlUwejA1QnRrM2N2VGlWLURaYTRjdHZTcXhpUGNXVlJpd0xIVUhLWldZM0p1UlZXT1FzX25GUVN4QW9zb1hQUHBJMDMyZHNKR2lIMFhBOV9ZQkpDakhNNEh6WUpsVmhpQXhkZzkxcm00M2hnSFVENk84WVNzTEUtakVpVm95RU9xNk13RmtxVEdrVG9uc0FjMFJ6NldsdjZZTUJmUGk2WXZvSU9iMXBxOWE4ZjNQUzhuQ3VnUW9Ka0hJdUNsRW8?oc=5",
-   "source": "Yahoo新聞",
+   "link": "https://news.google.com/rss/articles/CBMiS0FVX3lxTFBPaC1DS0pGaEFTT2xucXBFYU5aRTBicjB6YllPUXR4UzBrTVlVbDZ6UDJ1VmNHZTRxOUNJYURkODhLSlRQam4tOXM5RQ?oc=5",
+   "source": "三立新聞",
    "tag": "美股",
-   "time": "2026-11-26T00:56:00+08:00"
+   "time": "2026-11-26T00:57:13+08:00"
   },
   {
    "title": "討論牆 | 美股開盤全崩！那指瀉1000點、費半暴跌7",
@@ -2981,6 +3597,13 @@
    "source": "自由財經",
    "tag": "財經",
    "time": "2026-11-25T23:37:10+08:00"
+  },
+  {
+   "title": "關稅、通膨利空罩頂！美股週三開盤重挫 費半大跌5.46%、輝達下滑6% | 太報",
+   "link": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1nVC1UVTVQMFR3THpNTkpqZXRXMHpUSFloZnBWN09VX3h0TktBM2dKV21veTNKd283UkFPSk8wdjRXS2xSU3htQUxjSVk4V1V6dkV1VlBLWks1OTJVUDd1c1JQVW10X3pJLWhoZnpfdHk?oc=5",
+   "source": "LINE TODAY",
+   "tag": "美股",
+   "time": "2026-11-25T23:27:05+08:00"
   },
   {
    "title": "美股早盤／那斯達克100一度跌至熊市門檻 CoreWeave股債齊跌、殖利率逼近18%",
@@ -4976,632 +5599,16 @@
    "source": "中央社財經",
    "tag": "財經",
    "time": "2026-11-25T17:12:14+08:00"
-  },
-  {
-   "title": "美股異動｜亞德諾盤前跌逾2% 業績指引不及預期",
-   "link": "https://news.google.com/rss/articles/CBMiakFVX3lxTE5FSVVEa1Z3b19vS2N0NC1BMkdTZ2MyV2VxLVRpaklKbHdPM0lHZ05yb3NxbENQRmVXMXVvNE04ZThMb0FjUXg5bWpWTEhoSGcxOWZfSkJ2WXFudGp4VF9peUJoTnpsSFZpa0E?oc=5",
-   "source": "TradingView",
-   "tag": "美股",
-   "time": "2026-11-25T17:12:05+08:00"
-  },
-  {
-   "title": "國家檔案館常設展《島讀：我們的故事》勇奪羅馬設計獎金獎",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653168",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T17:11:29+08:00"
-  },
-  {
-   "title": "台股「只紅一天」川普關稅砍出史上第六慘！賣壓籠罩全市場 資安概念逆勢撐出一點紅｜Yahoo財經掃描",
-   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E3%80%8C%E5%8F%AA%E7%B4%85%E4%B8%80%E5%A4%A9%E3%80%8D%E5%B7%9D%E6%99%AE%E9%97%9C%E7%A8%85%E7%A0%8D%E5%87%BA%E5%8F%B2%E4%B8%8A%E7%AC%AC%E5%85%AD%E6%85%98%EF%BC%81%E8%B3%A3%E5%A3%93%E7%B1%A0%E7%BD%A9%E5%85%A8%E5%B8%82%E5%A0%B4-%E8%B3%87%E5%AE%89%E6%A6%82%E5%BF%B5%E9%80%86%E5%8B%A2%E6%92%90%E5%87%BA%E4%B8%80%E9%BB%9E%E7%B4%85%EF%BD%9Cyahoo%E8%B2%A1%E7%B6%93%E6%8E%83%E6%8F%8F-091048943.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T17:10:48+08:00"
-  },
-  {
-   "title": "美股半导体股盘前多数下跌，Anthropic盘前跌约3%",
-   "link": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9xMUxkVU9iYUJSN05wdG9FZUlBVUVGZzI3cXk5Z1QtNmZLeEZmeUx1bmwwcHdpLVFRaVpMUmxqZ1VKZlJvRnc3MEpqQ1M2a1JoSF9QYnVOR3M5V3ZJejdhVE1hN0xXQQ?oc=5",
-   "source": "TradingView",
-   "tag": "美股",
-   "time": "2026-11-25T17:10:47+08:00"
-  },
-  {
-   "title": "分析師憂記憶體過剩 美光目標價腰斬",
-   "link": "https://news.google.com/rss/articles/CBMiXEFVX3lxTE85SVVmR0JfT0J2djRLRllTc3hTdkRjRHlKeFE4YmthUXQxQnlvVzF4TVNWUmd0T01iYzdUNDN3TDRMX1c3WjRWOC12bDMxVlptZ0tIUmFRZEVoOG920gFiQVVfeXFMT1g1bkJXNGQwcFY0VGVSck9HVFhIMExhNGVZa2NjRDVzdEFobDFhaXFBTkFkMEc0QkpyMlFQOTQ0VmcwdmZVTFRkdUJ3M3hNUUJiTjdBeU5lVTRPTlVGUHBoZGc?oc=5",
-   "source": "經濟日報",
-   "tag": "美股",
-   "time": "2026-11-25T17:10:44+08:00"
-  },
-  {
-   "title": "美光股價半年腰斬！「獲利懸崖」四字嚇崩記憶體股 法巴、高盛、摩根士丹利集體下修",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE42WTZRWENaTkU4TmFIRFU2ZFowang5V09VTXRqX0F5NXZ4M1o1aUh0SlQ5RHlLcE5FTkMzVUpKUnEzYWdBTXFpOHByc0RVQ0k?oc=5",
-   "source": "鉅亨網",
-   "tag": "美股",
-   "time": "2026-11-25T17:10:03+08:00"
-  },
-  {
-   "title": "費半崩近8% 美股今晚迎關稅與PCE",
-   "link": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxPekJ4dTdqMjBvU19wcTdWTWFLanFWSGlaWVJUcjJoUEhna0tKdk0wNG5rekVvMWJNT1BUdldNRVJQT1VEeENrSlZHN3U2QWNzZnB1djFZQUhNMHA2WUgxbG5ITmZNNzRNbnRMRXVQOEFtS0pRMllxYkdzQlNFRlBNSFFGa3M0TXBOaDNTeVk0elFSMFVBM1JpRmJCOGI4MWNWSlRyd2J0d2lsLTFpMTFNRUJkazBrZG1yZ01OVUgzMmJkOGxDLVk0SE5MNld2MjlyTFdwZUI2a04tdzhFdkpUbnFxOWlsaV9qLVE?oc=5",
-   "source": "Yahoo新聞",
-   "tag": "美股",
-   "time": "2026-11-25T17:10:00+08:00"
-  },
-  {
-   "title": "童子賢：AI如同2千年網路重大且會有波折 落敗必成二流國家",
-   "link": "https://www.cna.com.tw/news/afe/202611250226.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T17:08:11+08:00"
-  },
-  {
-   "title": "力晶股東會／力晶改選場外交鋒 臨股會當日再告市場派偽造文書",
-   "link": "https://tw.news.yahoo.com/%E5%8A%9B%E6%99%B6%E8%82%A1%E6%9D%B1%E6%9C%83-%E5%8A%9B%E6%99%B6%E6%94%B9%E9%81%B8%E5%A0%B4%E5%A4%96%E4%BA%A4%E9%8B%92-%E8%87%A8%E8%82%A1%E6%9C%83%E7%95%B6%E6%97%A5%E5%86%8D%E5%91%8A%E5%B8%82%E5%A0%B4%E6%B4%BE%E5%81%BD%E9%80%A0%E6%96%87%E6%9B%B8-090800826.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T17:08:00+08:00"
-  },
-  {
-   "title": "大搶AI商機 長榮航空第一架客改貨機明年第2季投入營運",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653160",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T17:07:37+08:00"
-  },
-  {
-   "title": "五大調查等著黃仁勳 踩爆一個都能讓他翻船",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653169",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T17:06:39+08:00"
-  },
-  {
-   "title": "【1126台股盤前】川普關稅再起震盪回測！融資急增近200億洗盤，偏震盪非純空鎖定主本比【碩禾】、【仁大資訊】、【天擎】",
-   "link": "https://news.google.com/rss/articles/CBMihwVBVV95cUxOSEJJY255a2pmMnRHNXZtMkpzTjZvUUZLVnhBaWptQzhVVFRzSUdLX3YtdFJOTnM0Q0dqdDh2a1M0ZGplNDFiV09jUnI4clh1a1M4QzhpN29HazJTM0lVSWFOanlzaGp0Y0JOUDN6dVEzRmRYcVNULUxoQUUxRGl0UjQzcXJSSEtmTXFYem1xN091d2VueWRNb3IwWThDVkVjT3BxLTgyUjlpZUFGQW5udHJrTUtPbEJfTldZOWZwYzZQRVl1bFlNXzBWc0tJeTVDQ1BnaE5xS1RtVzNmS2ZKZzE4LXp1Q0JENnlYME4ydUpNUDFFVm43WFpfOWVkUXZscjJQTVZfdXFCZDVwd0cteGJKNTBMTmR2U2Y3aGh3OEdyWVFyek45THgwVjZBR0ZWcHZ4a3RPSHhHSTd0RVVXM3dxbGNwQUx2SmxwcW0yWEoxUE9fQ3BSMW5pbm9wbzdXVEtNaWRGaWhXamZoVktodnY3dkxzSXl4Y3RRbWRfZlNDODktbGJKYzFxeGZSQ2owenBWeFJ0QnotYjh6ek9jNHlpcDJheE5SYlFTVVJoSjY0amlUelV5RTNMOGpyaV9KTFJMVVpSZTVkbVdGbE5QRXBKUnppMV9UMWltdDhRaUVTdXBNVXFsYWtHQ3g1WmVha2E3OERGaVNibjdZbF9ieUh2SFk3MDlXMEJKcW5rSGFROU14Ujg4Nnd4WnV6anAtZGYxLWUtX2duTm10Rlg3MldRUFF1bnQzZ3U3QTZLbGF4Y2VSSDNrQy1fdzlPLTI3anRSLUNTU1FrNkd5VFJlZmJIeEpWMlNPLWZUaWcxSDkwT3JGdkxNWWNJWjV4Z0tRcG9fT3ZSSQ?oc=5",
-   "source": "永豐金證券",
-   "tag": "台股",
-   "time": "2026-11-25T17:05:48+08:00"
-  },
-  {
-   "title": "台股遭利空打回原形！收3萬8195點 暴跌1926點",
-   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5vNUFiSi1Rb1M5bEZSMjQ2Wkxkdzl3TmpTWWNrdVNNRnZhalQtUnN4VG15OWVjcHJMZEFmNDJTNldjZFdMVzZpMk1qelI5NWNN0gFWQVVfeXFMTklTbEpKNU5Lc25lMkMtTVlVNnVPRXFfZ2ptTDVqejVVSnRLX0NoTDJMOVMyM0NwS0wyQkJVSWVVQkF3d01uNXZVYUprejg0WUF2RnVrTGc?oc=5",
-   "source": "UDN",
-   "tag": "台股",
-   "time": "2026-11-25T17:04:43+08:00"
-  },
-  {
-   "title": "外資倒貨1236億！ 買超前10名「8檔都是它」網：準備幹大事了",
-   "link": "https://news.google.com/rss/articles/CBMi2gJBVV95cUxNSmpEYjdud01jRUNla0dSSWFiRWNPUGFXTkVQZVZjalNiMjF6NDNIWkNVOE1PVWNHZ0pLTTBNV2c4QVF1c0RoUHBRT3BGc1F2RzhxSVk4LXQ2U2NBSVNvZS1ZNXdzMWJKeW8yOHlKbVRGTkNLZXNJbXNQUWctdmJXNGh3VjFEaS1HWlI4WHBqTFVZRkQ1SjF4OTBId0N2R2JqQTNoZDJ4ODQ2LXFqNlB2aE9ROEJjQnd2dDRUc1FfUDBPNFY4S1lkWkgwbDk0dmpudl9udDc3dFdaU0FXbTVMcXlaM1o4bHVHeHltVUZoNjJxQ0ZkSXNQRkdSdk5JdjZ1Y1paeF9uaEVjWlYtZy0xUVQ5aDRORDN4QUQ0RXdHUW8tdGp5T0o2WFVnSEVUekM5R25sZ21kbm5FREJpUkloSjd0TGgxekZUNU8tNDYyd0Nlc1lKS0swc2JR?oc=5",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T17:03:00+08:00"
-  },
-  {
-   "title": "美股電子盤：今日17:00美股期指電子盤最新報價",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOai1DcFd3RUhiSlJETUhZMUI5UWIxT1llNW03bVBhODdseUdjdGZtbU9sNHR1RF9WYVg2NmpBOGFGMFJ2dmxlTTBnbVp5bTFOXzFKWVlSXzFCOTF5VWNxVmEtc2lrQmRMbC1KT280dC1nUXk3Q3d3RU1nSDlUQ2RzaVhldlRPWkxo?oc=5",
-   "source": "富聯網",
-   "tag": "美股",
-   "time": "2026-11-25T17:01:00+08:00"
-  },
-  {
-   "title": "科技股震盪怕怕的？好市多、可口可樂都在這！一文看懂XLP、XLV、XLY 美股防禦ETF怎麼挑｜豐雲學堂2026 年 11 月",
-   "link": "https://news.google.com/rss/articles/CBMi8ANBVV95cUxNdmRVem5MQnFUX1REd1RQVE1Ha1ViZEx3Y0RqajF3TGN3MTF1UnlJMzExU2ozdGVaUDV3WXctbG96UksyVy1sYmpxOGdPX2dqZVdVQlpvLU1rTkpSUEtRY1o1M1hJcVRIUXNHeHJGeXU5aERSa04xTlBzZ1puMGpKZUZCdkRSdGRjVkVtZzljdzBlZ2Y1OVVfT1BrZDloLXlKV19KRkhNYWxFVWo1VWZDYjZyVTU4MTl5SlI4TkFyYVVod1JacUhDQXFvU0wwcjlocW5yMkJvMFN1TUlBRzBfUUFxZmxsbHVZY092cFpqaEFXQVpnU19ib3JjeUlFTkNFb01sbkE4WFB2VW9pTHd4NlEtWFNKNkR3eTg1dkI0UnNIZlRLM0sxVzJnVWFHenhBeUpjZjVDMHVqSURtQnd1T2xiSERFNVpRdEJoYVVhd0Y1dmtHNDhraEtNLUJuZHRwRUpodkR0RmVzSEkwQVA0elVvRlJxWlhVMnlqaUZRVG95eUlVQkFaWjBSb3d2TWJxbDBlMUMyWGdQeXB6SGJabndYT2I4UkwzaXRIZWprdFZvb09ZNnBubVJUenhfemhyRGZ3WXlqT2g5XzRkdllBQ0lwVExac0hvSWQxeE5TbllCQzlkZkIyYVpGRE9tdGZC?oc=5",
-   "source": "永豐金證券",
-   "tag": "美股",
-   "time": "2026-11-25T16:58:24+08:00"
-  },
-  {
-   "title": "聯發科近期暴漲又暴跌！股民傻眼「像在坐大怒神」：發哥不是發財就是發瘋",
-   "link": "https://tw.stock.yahoo.com/news/%E8%81%AF%E7%99%BC%E7%A7%91%E8%BF%91%E6%9C%9F%E6%9A%B4%E6%BC%B2%E5%8F%88%E6%9A%B4%E8%B7%8C-%E8%82%A1%E6%B0%91%E5%82%BB%E7%9C%BC-%E5%83%8F%E5%9C%A8%E5%9D%90%E5%A4%A7%E6%80%92%E7%A5%9E-%E7%99%BC%E5%93%A5%E4%B8%8D%E6%98%AF%E7%99%BC%E8%B2%A1%E5%B0%B1%E6%98%AF%E7%99%BC%E7%98%8B-085500368.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:55:00+08:00"
-  },
-  {
-   "title": "華城電能明年三箭齊發 拚3年轉盈、2028年登錄興櫃",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653125",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:51:18+08:00"
-  },
-  {
-   "title": "【即時新聞】輝達(NVDA)飆升後回跌5.9%！川普表態願特赦黃仁勳並拋入股震撼彈",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE93LUJyNjZEd1pfQjV2OENkd2M2X2tmcjcydk0tdlZMRDZiUkdNYnRTTkN6WEFtMVFid2J4VDRHVzlxMjNkcHg3cktIYlV5YmUta09kRmdydWI?oc=5",
-   "source": "CMoney",
-   "tag": "美股",
-   "time": "2026-11-25T16:50:39+08:00"
-  },
-  {
-   "title": "台積電調整第二季股利：現金7.00000137元",
-   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%AA%BF%E6%95%B4%E7%AC%AC%E4%BA%8C%E5%AD%A3%E8%82%A1%E5%88%A9-%E7%8F%BE%E9%87%917-00000137%E5%85%83-085000470.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:50:00+08:00"
-  },
-  {
-   "title": "藥局進入紅海市場 8月批發跟零售合計店數一年減少222家",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653118",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:49:19+08:00"
-  },
-  {
-   "title": "晨訊科-DR 翌日披露報表：股份發行人-已發行股份或庫存股份變動、股份購回及/或在場內出售庫存股份",
-   "link": "https://tw.stock.yahoo.com/news/%E6%99%A8%E8%A8%8A%E7%A7%91-dr-%E7%BF%8C%E6%97%A5%E6%8A%AB%E9%9C%B2%E5%A0%B1%E8%A1%A8-%E8%82%A1%E4%BB%BD%E7%99%BC%E8%A1%8C%E4%BA%BA-%E5%B7%B2%E7%99%BC%E8%A1%8C%E8%82%A1%E4%BB%BD%E6%88%96%E5%BA%AB%E5%AD%98%E8%82%A1%E4%BB%BD%E8%AE%8A%E5%8B%95-084900744.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:49:00+08:00"
-  },
-  {
-   "title": "台積電亞利桑那擴建、評估德州建廠 台灣仍是研發與先進製程核心",
-   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E6%93%B4%E5%BB%BA-%E8%A9%95%E4%BC%B0%E5%BE%B7%E5%B7%9E%E5%BB%BA%E5%BB%A0-%E5%8F%B0%E7%81%A3%E4%BB%8D%E6%98%AF%E7%A0%94%E7%99%BC%E8%88%87%E5%85%88%E9%80%B2%E8%A3%BD%E7%A8%8B%E6%A0%B8%E5%BF%83-084755316.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:47:55+08:00"
-  },
-  {
-   "title": "統一超商開出4張千萬發票 幸運兒花10元買飲品抱回大獎",
-   "link": "https://www.cna.com.tw/news/ahel/202611250217.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:47:52+08:00"
-  },
-  {
-   "title": "台股暴跌百檔跌停！外資砍1236億 竟押寶「這檔」大買2.47萬張",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5ObEdmU3NYb0tXVFB4aUs1LWt2aFBIbW5MbXlheUFBZXN5aHlKdVpad2lEdUN4c1FiSHN1UGUwbWRsOHE1dnp0dUN4cC0wWTVYeWFVMzB1cGc?oc=5",
-   "source": "自由時報",
-   "tag": "台股",
-   "time": "2026-11-25T16:46:20+08:00"
-  },
-  {
-   "title": "黃仁勳回鍋也救不了？台股重挫1926點跌回3萬8 分析師：不排除再破一次低點",
-   "link": "https://news.google.com/rss/articles/CBMisANBVV95cUxOSGZUaFE2Q1NESllsMzVhdkM0c0hXTWY4bXpmU0dHYVBfUUdBOFVWd3FadzJYbzhHNk1lX1Nta1NvZEtFX0ExMWdYTHRRMXUwZmZvMmU3dHlpRWpGX3dXX0VDTzJDcW9JOUJZaVl4Y0F0aWFDSTdhSkU3X2pGUVc3NTNVZUk5V0xaWkdXNHVFQkpRVmxyVm5ZU2J3WDdMMnE4SHdsY1V6NnlMaEYybDRBVnVVVTFTMnVIYkxzeDdWR3lpLUVmQWp6c3BCWW5tc1llZ0V6MnlkUXlVc1NOa2lQU3diSGRDZ19ZQ1B1dmxrOUlzS2tWeXdaSTJHQ0o2Zzl2cHMtM01sS1lCaU5YeS1NTS1qazZYTEQzUnZZajRJZkNlTnJhUjNfZ0piZnE3QmxrLTFlWG1QWGtqYkpEMTZJNDlpMlZLQ2dIM3JTN0FyMXdyTEhMUFNmWTFxLVRseW5PRXRvdmNKeU5uVExqZGhCQ3hDV1hWNmo1UWVpWFdCSU40WnhWRXp5YUxweFB1YU82YzUyTjJyaUY3c1FwUTB3aU9wVEo4UUxJb0UxLXM0S2k?oc=5",
-   "source": "Yahoo新聞",
-   "tag": "台股",
-   "time": "2026-11-25T16:45:02+08:00"
-  },
-  {
-   "title": "手握600萬、月領6萬！68歲婦不缺錢卻每週工作3天 「真正原因」曝光",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5652401",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:44:08+08:00"
-  },
-  {
-   "title": "黃仁勳回歸台股就能重啟AI行情？融資退潮逾2千億元後跌深族群誰先接棒- 證券",
-   "link": "https://news.google.com/rss/articles/CBMiX0FVX3lxTFBjdm5oN3NzajQ3d3BLTVBQN1VJbUwwalZoXzdnVzRQWVV2VHBRZEM1NnpyTG9RcnZLVWlzWElzNUJrZzdYWkF0aDRIV2w1U1JKLUtoTlgzT204S0FGUGhz?oc=5",
-   "source": "工商時報",
-   "tag": "台股",
-   "time": "2026-11-25T16:42:00+08:00"
-  },
-  {
-   "title": "國家檔案館「島讀」常設展 奪羅馬設計獎金獎",
-   "link": "https://www.cna.com.tw/news/afe/202611250209.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:40:35+08:00"
-  },
-  {
-   "title": "台股極端震盪主動式ETF績效洗牌 「回本難度」成重點",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%A5%B5%E7%AB%AF%E9%9C%87%E7%9B%AA%E4%B8%BB%E5%8B%95%E5%BC%8Fetf%E7%B8%BE%E6%95%88%E6%B4%97%E7%89%8C-%E5%9B%9E%E6%9C%AC%E9%9B%A3%E5%BA%A6-%E6%88%90%E9%87%8D%E9%BB%9E-083657029.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:36:57+08:00"
-  },
-  {
-   "title": "張建一：估央行12月考量利差升息半碼 但未必能拉抬匯率",
-   "link": "https://www.cna.com.tw/news/afe/202611250207.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:36:30+08:00"
-  },
-  {
-   "title": "《美股期指》16:30，小道瓊期跌187點，小Nasdaq100期跌496.75點",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNNEU3OU8tbGFpa0NiblZKVFpfMm1RWEVfcl9kOU9abVJ6Q3NKcGJsNFBVMF9mOE9MNGE0SXdvLUMxR1pVUUVEVU1ZTHB6djFGZUhkOVVxc2p3ZHQwOV9MeFFhR25iVFZYc3YxOWhMRGJDUElrTWkzU092WG54bmQ4NW5SU2lGWHZT?oc=5",
-   "source": "富聯網",
-   "tag": "美股",
-   "time": "2026-11-25T16:32:00+08:00"
-  },
-  {
-   "title": "力晶控市場派委託書涉造假！董監改選剔除違規票",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653078",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:31:27+08:00"
-  },
-  {
-   "title": "聯電連拉2根漲停今秒殺跌停！兇手抓到了 118萬股東傻眼",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653100",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:30:08+08:00"
-  },
-  {
-   "title": "66歲阿公退休後整天打麻將 結果一年後出現「這症狀」",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5652546",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:27:37+08:00"
-  },
-  {
-   "title": "台股蒸發50兆！阮慕驊示警：高股息ETF配息恐縮水",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E8%92%B8%E7%99%BC50%E5%85%86-%E9%98%AE%E6%85%95%E9%A9%8A%E7%A4%BA%E8%AD%A6-%E9%AB%98%E8%82%A1%E6%81%AFetf%E9%85%8D%E6%81%AF%E6%81%90%E7%B8%AE%E6%B0%B4-082730508.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:27:30+08:00"
-  },
-  {
-   "title": "中國PVC出口面臨多地反傾銷調查 華夏明年稼動率有望回升",
-   "link": "https://www.cna.com.tw/news/afe/202611250202.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:26:20+08:00"
-  },
-  {
-   "title": "搶攻睡眠保健商機 冠晶光電推穿戴式光感新品",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653074",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:26:18+08:00"
-  },
-  {
-   "title": "不用擔心！美國301調查將公布 林佳龍：應不影響台美關稅談判結果",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653073",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:24:47+08:00"
-  },
-  {
-   "title": "2409 友達 - 11/26盤前近100條+經濟+工商新聞+投信當天買賣超股- 股市爆料同學會",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBGNi0zdkRzWVQ5R0YydHZna0ZFZlBvS3F1RUJqaDFNTGZOVG1YVVd3a0lmS0dGSGxNUzFBMDFqVDNiMzlQWFNlbVZXOV9hRm11YnpRVGZnMFk?oc=5",
-   "source": "CMoney",
-   "tag": "美股",
-   "time": "2026-11-25T16:20:26+08:00"
-  },
-  {
-   "title": "外資台股狂賣並匯出資金，新台幣週三爆量大貶1.87角收33.126元",
-   "link": "https://tw.stock.yahoo.com/news/%E5%A4%96%E8%B3%87%E5%8F%B0%E8%82%A1%E7%8B%82%E8%B3%A3%E4%B8%A6%E5%8C%AF%E5%87%BA%E8%B3%87%E9%87%91-%E6%96%B0%E5%8F%B0%E5%B9%A3%E9%80%B1%E4%B8%89%E7%88%86%E9%87%8F%E5%A4%A7%E8%B2%B61-87%E8%A7%92%E6%94%B633-126%E5%85%83-082018996.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:20:18+08:00"
-  },
-  {
-   "title": "大全聯開出千萬發票 花2244元買泡麵生鮮成幸運兒",
-   "link": "https://www.cna.com.tw/news/ahel/202611250198.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:19:11+08:00"
-  },
-  {
-   "title": "永豐期貨：費半重挫近8%！台股回吐1,927點、跌停46家",
-   "link": "https://tw.stock.yahoo.com/news/%E6%B0%B8%E8%B1%90%E6%9C%9F%E8%B2%A8-%E8%B2%BB%E5%8D%8A%E9%87%8D%E6%8C%AB%E8%BF%918-%E5%8F%B0%E8%82%A1%E5%9B%9E%E5%90%901-927%E9%BB%9E-%E8%B7%8C%E5%81%9C46%E5%AE%B6-081810383.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:18:10+08:00"
-  },
-  {
-   "title": "台股史上第6慘！投信狂買535億卻狠砍「這檔」 4天倒貨4.47萬張",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9zN0NTSERZUkd5S25KNFFad3AweU9mb2dOTGRmcUFGWDdOT0F6RDFRdDc5WGNqdlpvTVNpM1Mzck1iVXIzUkdMVS15NzdWc2l5QWpVdWR4TzY?oc=5",
-   "source": "自由時報",
-   "tag": "台股",
-   "time": "2026-11-25T16:15:48+08:00"
-  },
-  {
-   "title": "華城：重電訂單看到2030年 搶攻AIDC供電系統商機",
-   "link": "https://www.cna.com.tw/news/afe/202611250196.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:15:07+08:00"
-  },
-  {
-   "title": "恐慌時怎麼進場？解析「ETF 235 加碼法則」：以台股急殺為例，用紀律放大微笑曲線獲利｜股市話題",
-   "link": "https://news.google.com/rss/articles/CBMiswRBVV95cUxNWTNIVW5vb0s3Y1JFLXpuZ084b0NIc0Z4RTJpcTNtVUwxemtMeXgweTZRNVc5NHBOZ0pYdGtCdzBVZzAzcmlpek1GWUdaMHdPbzd3bzdwa2dVRF82Rld0dkFTMHB1RXMxdDVmUDZabVotZ1RVRThmOEdMa2ZvY1ZWOXF0X1lSaFBNTEVDY0RxOTJDVng5cGJHckNmSkFxZGFQUHJsNnh6T1oxTUhtcEVZTk9HY19oalZIVHE2M3lnaTRsa1lMVmowTXNROWE4dVk3ZnI0YU5feG0wNDVkOFNPVlhUajEtMzN2RFY4YWF5ZXp6UEZpYU1nNThWMVl3ZTdPWW1CWDV3QnV4TFdfcS1FUW5vbWdOOTFEX1RPY3hZM2w4U3A5NTBYM3BVaWhKQkZ6Z29yaXdxa2FLOFQ4RnpkYU1KSU1ibnlGbVFpZGY5a0gyc3NKMGl0VG1XZVZKTGpCZE5fY2tyb184OWd3clNuSEp0bXBVd19fWklWTmJWLW4wTTVzanhfN1dDNWtjUXVaS1ZNRkJnSHh5cFFiTmkweHJBdlE5ZnB3dE9Eck1NdkxENWFOVFc4bkl1SU5Ha1dzbnNiX2JmZURYQTJrNVlhVE5xeG1wRVEzR1NtM3dBa0xueWxTT2JtV0hWdnJxSGMtQUJBUGxfOTVRa0ZzNWFNeFJTTGhEQkNkRTRpSkJQcGdKVGNScUhGR1lXMUp1Qmp5RFNPTE1rb1lnakRGeTNRWW95WQ?oc=5",
-   "source": "永豐金證券",
-   "tag": "台股",
-   "time": "2026-11-25T16:13:18+08:00"
-  },
-  {
-   "title": "外資爆賣台股千億！新台幣重貶1.87角 央行33元防線失守",
-   "link": "https://tw.stock.yahoo.com/news/%E5%A4%96%E8%B3%87%E7%8B%82%E8%B3%A3%E5%A4%AE%E8%A1%8C%E6%93%8B%E4%B8%8D%E4%BD%8F-%E6%96%B0%E5%8F%B0%E5%B9%A3%E6%94%B6%E7%9B%A4%E8%B2%B6%E7%A0%B433%E5%85%83%E9%98%B2%E7%B7%9A-%E9%87%8D%E8%B2%B61-87%E8%A7%92-081305979.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:13:05+08:00"
-  },
-  {
-   "title": "航空供應鏈瓶頸延續 長榮航太：明年逾8成維修已排定",
-   "link": "https://www.cna.com.tw/news/afe/202611250195.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:13:05+08:00"
-  },
-  {
-   "title": "科技股跌出價值股價格 Jefferies看好基本面、卻還看不到止跌訊號",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE0zUmkxQ2hlWFE5cGZWUlB1QzFnc1ZOOWdTUElRNWRoSVBmOS1tNTNlS0JWM0dybk5XbldHR0gycktvSXpvcS0wdm83QWZyTGs?oc=5",
-   "source": "鉅亨網",
-   "tag": "美股",
-   "time": "2026-11-25T16:10:06+08:00"
-  },
-  {
-   "title": "台股重挫1926點！ 網見外資賣超嘆：就是在逃命很急",
-   "link": "https://news.google.com/rss/articles/CBMixwJBVV95cUxNV0tKYm5NZzZVRHRQNWx0UGpwUEF4R0NsVmlQUGV6RXI1RURPXzAwSE9KRjZXMG55M1Vudm1tVjljV3FsQnRPa0NPdHZmWFNZaDlRcHloQlNtdWh5ZFY3THRWcGxBazcwMVk2OWM5LUlycFZpeUw3Qll3azRsUjF3endxdlFrMzdaOXVYYzVubFI2WGN5QzlHSXNHS0JoS1Jza1d2UElWNUpMdGlfOVh3eDRjLVVNMnVNRkdLZWVmR3E2Nkg5bkpvai1TVEYzeE1GRXFxa2c1ajUxVF9zclAycDJ3S2VVcXN0NkdmWDhNVTZIbGMtY1BxUmpCcjY0cnRPSG1zUHFWX2Z0QTZIVGk0NFpLYUozVGRCb2JPZXBxUGZ6TW45Uk0zVmUxblRIR1hYU3h5OXVNemFwN3ZjUWR6RmhuQmdBTXc?oc=5",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:09:11+08:00"
-  },
-  {
-   "title": "斥資2650億美元擴大投資美國 台積電12/4舉辦亞利桑廠擴建典禮",
-   "link": "https://tw.news.yahoo.com/%E6%96%A5%E8%B3%872650%E5%84%84%E7%BE%8E%E5%85%83%E6%93%B4%E5%A4%A7%E6%8A%95%E8%B3%87%E7%BE%8E%E5%9C%8B-%E5%8F%B0%E7%A9%8D%E9%9B%BB12-4%E8%88%89%E8%BE%A6%E4%BA%9E%E5%88%A9%E6%A1%91%E5%BB%A0%E6%93%B4%E5%BB%BA%E5%85%B8%E7%A6%AE-080852210.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:08:52+08:00"
-  },
-  {
-   "title": "元太攜23家企業 捐1060台彩色電子書進台東67所國小",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653051",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:08:34+08:00"
-  },
-  {
-   "title": "光明取得台積電40張，計約8382萬元",
-   "link": "https://tw.stock.yahoo.com/news/%E5%85%89%E6%98%8E%E5%8F%96%E5%BE%97%E5%8F%B0%E7%A9%8D%E9%9B%BB40%E5%BC%B5-%E8%A8%88%E7%B4%848382%E8%90%AC%E5%85%83-080700015.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:07:00+08:00"
-  },
-  {
-   "title": "新台幣爆量重貶1.87角 收33.126元",
-   "link": "https://www.cna.com.tw/news/afe/202611250192.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:06:58+08:00"
-  },
-  {
-   "title": "AI算力需求還沒到頂 華城：美客戶積極下單 能見度達2030年",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653039",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:06:42+08:00"
-  },
-  {
-   "title": "一日行情變臉！台股狂瀉1,926點、外資8天提款4,216億",
-   "link": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5kSm5OWjdGTXlSNUZuUW9KVm9TajkyY09vSV9GaTgzWUlTOXByVldYRjQ4a0c3akJtWjVLMTBOODY1WUJuRDU3ZGtiTnJobnFuR0gtamFaYkdtcllKTGw2RDJDX2twRDE2OXRqTHE5RQ?oc=5",
-   "source": "理財周刊",
-   "tag": "台股",
-   "time": "2026-11-25T16:05:30+08:00"
-  },
-  {
-   "title": "《台股盤後》重挫1926點/寫史上第6大跌點失守年線- 新聞",
-   "link": "https://news.google.com/rss/articles/CBMikgFBVV95cUxONjl2SlhJVkFEcjRVUTZaeFk5UlVsZGxaamIyN0E0TmJ5cklfZF9xWmVjcm1XU29jS2E2dzZYRjFjaUswUU1uNXZ0Q2JlTmZKWXJ1VVhETDRRcFdsalZPZmVRcXROZkY5RGIwZXJhTkQ3azNQSlI4YlVURUR2WDNqZFpKZGhwci1mZjRiVDN1YVhEQQ?oc=5",
-   "source": "MoneyDJ",
-   "tag": "台股",
-   "time": "2026-11-25T16:05:00+08:00"
-  },
-  {
-   "title": "《台股盤後》重挫1926點/寫史上第6大跌點 失守年線",
-   "link": "https://tw.stock.yahoo.com/news/%E5%8F%B0%E8%82%A1%E7%9B%A4%E5%BE%8C-%E9%87%8D%E6%8C%AB1926%E9%BB%9E-%E5%AF%AB%E5%8F%B2%E4%B8%8A%E7%AC%AC6%E5%A4%A7%E8%B7%8C%E9%BB%9E-%E5%A4%B1%E5%AE%88%E5%B9%B4%E7%B7%9A-080500899.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:05:00+08:00"
-  },
-  {
-   "title": "搶佔水資源循環商機 惠民子公司接獲高科技廠RO薄膜清洗訂單",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653036",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T16:03:57+08:00"
-  },
-  {
-   "title": "【台股盤後】高低落差3302點！台股下跌1926點收38195點年線又失守| 金融",
-   "link": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE93ZzRPXzUzM3huV2tpbE1kOXYtMWFmWm5zcm9DZ1BFN0Q5ZHE5NmdHTUQzRFRWa0dwc0ZFMkxSamxMWmE0czkwYnNpakM4YnAycUU2WG8zVERJYnplMG9BZA?oc=5",
-   "source": "非凡新聞台",
-   "tag": "台股",
-   "time": "2026-11-25T16:03:45+08:00"
-  },
-  {
-   "title": "台股跌1926點史上第6 5日線失而復得收38195",
-   "link": "https://news.google.com/rss/articles/CBMikwJBVV95cUxQTEhPakR1VS0tdkY2aVBfVm95aUZYRXUyVWhPWGNKaEF4STdPdmJqUWVjUHpzNkU0Y3c0djVBWDlfdFBuTnB1UzZacVo5d1pydExfY0ViVFg3RUZyMVZLOHF3U3o5Zkh5ZVllT3hKWmpycmtNN29FbzFxVUZ6SW9iNFVqRjdnNmhVclJyR2xwZGMwR182UGRFeWNfU0VSVzRyWFF5V0d1ak0tUVJEaVhvUG9Faktiak54YjQwODNuX2lrYTRpS1RxWUViZTcwbUJ6SWFfWWZqaXdXTlhNWXpvM050cHYzNzc0UkJhSjdFMTJZRGNBbE9YdFJvbWlpX0x3NjhjOTdlaFdfbmJFbGxjZFNhYw?oc=5",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:03:18+08:00"
-  },
-  {
-   "title": "台股狂瀉1926點！投信逆勢豪砸535億 「這檔」金融4天狂掃7.72萬張",
-   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBKd3FzR2MwV0dvYVo0SzBUZmhCd3BIVHUyNmlCMmdUdzFwZVk0OHlULXZfWWZtM0FvR1c4dHFwQnBmb0tMVGdnSG91ZGVockhYT2hHNXB5MS0?oc=5",
-   "source": "自由時報",
-   "tag": "台股",
-   "time": "2026-11-25T16:01:03+08:00"
-  },
-  {
-   "title": "台股狂瀉1926點正式走空？股人阿勳揭「3大殺機」：哲哲雞排請定了",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E7%8B%82%E7%80%891926%E9%BB%9E%E6%AD%A3%E5%BC%8F%E8%B5%B0%E7%A9%BA-%E8%82%A1%E4%BA%BA%E9%98%BF%E5%8B%B3%E6%8F%AD-3%E5%A4%A7%E6%AE%BA%E6%A9%9F-%E5%93%B2%E5%93%B2%E9%9B%9E%E6%8E%92%E8%AB%8B%E5%AE%9A%E4%BA%86-080100730.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T16:01:00+08:00"
-  },
-  {
-   "title": "12月台股期指跌2262點 | 期貨市場 | 期貨",
-   "link": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1JZ09IbTU0N3V0c2IzX25IdXpnQjhlblRxb1NlQi1wUS03dmN4N3FmakpiQlZkMk5kWHlPLWl5bFVhWlUzdDVHMzNsWVNIN2l1OTdnZkFGU3JVcEU?oc=5",
-   "source": "經濟日報",
-   "tag": "台股",
-   "time": "2026-11-25T15:59:15+08:00"
-  },
-  {
-   "title": "VIX破60爆量換手 台股回測打第二隻腳，領攻第一棒看誰？",
-   "link": "https://news.google.com/rss/articles/CBMiT0FVX3lxTE5nSVRvRDd2ZmRRX0M5bm8wU0kwTzVZOXBoRWpTNG1Gckk1blVQWGVEazE3clMwd040V2ZkQzZhaU1YdmZqRlBIOEFvekR5R0k?oc=5",
-   "source": "鉅亨網",
-   "tag": "台股",
-   "time": "2026-11-25T15:58:16+08:00"
-  },
-  {
-   "title": "中傑：2027年東南亞、印度產能合計占比目標上看6成",
-   "link": "https://www.cna.com.tw/news/afe/202611250187.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:57:47+08:00"
-  },
-  {
-   "title": "彰銀、國票金整併有譜？彰銀併購評估報告已提董事會",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653026",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:57:37+08:00"
-  },
-  {
-   "title": "迎台積電轉單大補丸！大咖法人首選「2檔成熟製程」 目標價分別喊出160元、170元",
-   "link": "https://tw.stock.yahoo.com/news/%E8%BF%8E%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%BD%89%E5%96%AE%E5%A4%A7%E8%A3%9C%E4%B8%B8-%E5%A4%A7%E5%92%96%E6%B3%95%E4%BA%BA%E9%A6%96%E9%81%B8-2%E6%AA%94%E6%88%90%E7%86%9F%E8%A3%BD%E7%A8%8B-%E7%9B%AE%E6%A8%99%E5%83%B9%E5%88%86%E5%88%A5%E5%96%8A%E5%87%BA160%E5%85%83-170%E5%85%83-075500219.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:55:00+08:00"
-  },
-  {
-   "title": "台股單周蒸發7,641點、ETF受益人逆勢增32萬！ 高息、市值型受青睞 正2也入榜",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E5%96%AE%E5%91%A8%E8%92%B8%E7%99%BC7-641%E9%BB%9E-etf%E5%8F%97%E7%9B%8A%E4%BA%BA%E9%80%86%E5%8B%A2%E5%A2%9E32%E8%90%AC-%E9%AB%98%E6%81%AF-%E5%B8%82%E5%80%BC%E5%9E%8B%E5%8F%97%E9%9D%92%E7%9D%9E-075437157.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:54:37+08:00"
-  },
-  {
-   "title": "中國AI技術為何能緊追美國？外媒揭一條「神秘捷徑」竟藏在矽谷",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5652820",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:53:43+08:00"
-  },
-  {
-   "title": "【即時新聞】台股重挫1926點資金避險，統一成交量放大逆勢走高！",
-   "link": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPeGcwZDhsanVMQUF6Z1NNLXdOQ3ZZc3RYM2o2WUItVjg0NU9ZVmktNkg2Q201Tm1WZ1RRbVNLakJkSWRvYXpkYXNwYVBudFhuaUp3TnQwMElSNWM0WVZmZUNmVWVZUW1vOW41MTc5amF1RzIwZVA4U3k3QXQwQWp6SEFQR2E3bWN6TER1QzZMUXU?oc=5",
-   "source": "CMoney投資網誌",
-   "tag": "台股",
-   "time": "2026-11-25T15:51:30+08:00"
-  },
-  {
-   "title": "台股重摔宛如大怒神！謝承均也中傷被問「蒸發百萬」苦笑",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E9%87%8D%E6%91%94%E5%AE%9B%E5%A6%82%E5%A4%A7%E6%80%92%E7%A5%9E-%E8%AC%9D%E6%89%BF%E5%9D%87%E4%B9%9F%E4%B8%AD%E5%82%B7%E8%A2%AB%E5%95%8F-%E8%92%B8%E7%99%BC%E7%99%BE%E8%90%AC-%E8%8B%A6%E7%AC%91-075006049.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:50:06+08:00"
-  },
-  {
-   "title": "台積電職災頻傳工程竟獲金安獎！勞動部回應了",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E8%81%B7%E7%81%BD%E9%A0%BB%E5%82%B3%E5%B7%A5%E7%A8%8B%E7%AB%9F%E7%8D%B2%E9%87%91%E5%AE%89%E7%8D%8E-%E5%8B%9E%E5%8B%95%E9%83%A8%E5%9B%9E%E6%87%89%E4%BA%86-074841605.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:48:41+08:00"
-  },
-  {
-   "title": "歐盟擬設立500億歐元科技基金 設法縮小與美中差距",
-   "link": "https://www.cna.com.tw/news/aopl/202611250184.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:48:40+08:00"
-  },
-  {
-   "title": "黃仁勳回歸輝達也難擋？台股僅飆1天 前美女主播驚喊：瑟瑟發抖",
-   "link": "https://tw.news.yahoo.com/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E8%BC%9D%E9%81%94%E4%B9%9F%E9%9B%A3%E6%93%8B-%E5%8F%B0%E8%82%A1%E5%83%85%E9%A3%861%E5%A4%A9-%E5%89%8D%E7%BE%8E%E5%A5%B3%E4%B8%BB%E6%92%AD%E9%A9%9A%E5%96%8A-%E7%91%9F%E7%91%9F%E7%99%BC%E6%8A%96-074800015.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:48:00+08:00"
-  },
-  {
-   "title": "黃仁勳行情只維持一天：費半重挫 7.88%、美光崩跌 11%，台指期夜盤大跌 1,842 點，帶動台股 4 萬點再度失守，呈現開低走勢",
-   "link": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9GY1lKVTR6OXd4YmNHRVZvbkJ0U283RU9lMUJhVlBWWF9ibENtdDBVSEc3SjZzdWJfdTVxLXNnOGpzR3RzZDJ4VA?oc=5",
-   "source": "鉅亨號",
-   "tag": "美股",
-   "time": "2026-11-25T15:45:19+08:00"
-  },
-  {
-   "title": "天能綠電唐亞聖當選再生能源公會理事長 盼排除交易障礙",
-   "link": "https://www.cna.com.tw/news/afe/202611250182.aspx",
-   "source": "中央社財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:42:36+08:00"
-  },
-  {
-   "title": "川普301產能過剩調查非劍指台灣 張建一：估不超過15％",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5653014",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:42:19+08:00"
-  },
-  {
-   "title": "台股史上第6慘！全日跌1926點失守39K 台積電跌80元至2150",
-   "link": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBHdkpwckQyUENPT1NoZE11SmVBUndsUVFMNDZiWURqVm5GanRtc3dQalZDcFduX2RpNmJvLWRlNlhBZDg1cW9CZVV4eXZiRDNvd0HSAVBBVV95cUxNMWVZREpLeW1yVHZyd1hEY0dCYXMta09aeEt0SFZjNUpvaWZPSW1uRDFnM2gwMEVWbVQ1bzdkb0FNLThXcnVibG9vdXZwTzFGYw?oc=5",
-   "source": "ETtoday財經雲",
-   "tag": "台股",
-   "time": "2026-11-25T15:42:05+08:00"
-  },
-  {
-   "title": "黃仁勳回歸救不了台股？專家曝2大骨牌效應：昨漲停沒買到躲過",
-   "link": "https://tw.stock.yahoo.com/news/%E9%BB%83%E4%BB%81%E5%8B%B3%E5%9B%9E%E6%AD%B8%E6%95%91%E4%B8%8D%E4%BA%86%E5%8F%B0%E8%82%A1-%E5%B0%88%E5%AE%B6%E6%9B%9D2%E5%A4%A7%E9%AA%A8%E7%89%8C%E6%95%88%E6%87%89-%E6%98%A8%E6%BC%B2%E5%81%9C%E6%B2%92%E8%B2%B7%E5%88%B0%E8%BA%B2%E9%81%8E-074022825.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:40:22+08:00"
-  },
-  {
-   "title": "統一期貨：慶祝行情曇花一現，台股重挫，電子與金融權值股全倒",
-   "link": "https://tw.stock.yahoo.com/news/%E7%B5%B1-%E6%9C%9F%E8%B2%A8-%E6%85%B6%E7%A5%9D%E8%A1%8C%E6%83%85%E6%9B%87%E8%8A%B1-%E7%8F%BE-%E5%8F%B0%E8%82%A1%E9%87%8D%E6%8C%AB-073840007.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:38:40+08:00"
-  },
-  {
-   "title": "台積電美國擴產雙線推進！2奈米評估落腳德州 亞利桑那廠12/4擴建啟動南區用地",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E7%A9%8D%E9%9B%BB%E7%BE%8E%E5%9C%8B%E6%93%B4%E7%94%A2%E9%9B%99%E7%B7%9A%E6%8E%A8%E9%80%B2%EF%BC%812%E5%A5%88%E7%B1%B3%E8%A9%95%E4%BC%B0%E8%90%BD%E8%85%B3%E5%BE%B7%E5%B7%9E-%E4%BA%9E%E5%88%A9%E6%A1%91%E9%82%A3%E5%BB%A0124%E6%93%B4%E5%BB%BA%E5%95%9F%E5%8B%95%E5%8D%97%E5%8D%80%E7%94%A8%E5%9C%B0-073826797.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:38:26+08:00"
-  },
-  {
-   "title": "台股單日重挫1926點，台積電收跌80元",
-   "link": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5nV2xOYTYtdVJHUVpNejlXZHJGRzhOVUplbWpvVDQyR21nVXd2Mm9nOG1mTlJVcEFiOUZOd2d4YWtySUpWd3M4VFB6VnhhYWpzNUw3WVN2TGFOOGFNQlZCMHdFeEktQlBkeHdSTjZVRktCRkJUSGFLNG1n?oc=5",
-   "source": "CMoney",
-   "tag": "台股",
-   "time": "2026-11-25T15:37:21+08:00"
-  },
-  {
-   "title": "黃仁勳回鍋掀更大風暴！輝達董事會恐大換血 3名老將岌岌可危",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5652956",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:36:26+08:00"
-  },
-  {
-   "title": "中國信託產險獲AM Best調升評等 展望維持穩定",
-   "link": "https://ec.ltn.com.tw/article/breakingnews/5652984",
-   "source": "自由財經",
-   "tag": "財經",
-   "time": "2026-11-25T15:36:07+08:00"
-  },
-  {
-   "title": "【Hot台股】大盤暴漲又暴跌！網哀「昨天喊爸爸漲 今天喊媽媽救」 分析師：國安基金也難撐",
-   "link": "https://news.google.com/rss/articles/CBMitgRBVV95cUxOaFJxcXFVT1NyNF8yc1R4U2pNSDZTRGRxQ0J0OWFXdm8tTTRIYS10bC02Vks3NnFseXA4UTJSN2g5U3FKSEtQSjRpYzhqRTB1b2FyR0VZRDFJbzRaX3VmWi1BM09KbXN5T0NGQlFOTlBEenFEMTN0ejRPMGlSa0llV3RxTnluSGVQVk9pX3A4U1dXWF9WNG5iX0xSU09oNlZERE1vYkZDNU8yRXdVWHZZNzN4RUJGN2Y2RjdMOXB6ZWR5Zm9fWWJKQXRsaGYwNzRoMHNMcEQzUVk1M1RsOUx3SkVjSG1KSFJJbXJvRlNTUFFhWUhTMFZvMmx2N25RM0VleTltZXY4b284aHpVanlUcmI3SzliNVk1ZnN5cEpqYXMxdEFHZGRCR2U4WHJVbDlTajVGdmgyOXBaZkY4MVhHcjh2OHJwUEpVaExpTk8xbTA5Sk53OXJYZzJjdDc3ZWRqRTJ6MXpvNmhPTXUzLWtGcDVpZjd6NWo2M2xGX2ROSnFKZDBLVmFnMllJVnNxYnZkdVRiaGRIUnRMMXFlaUlHbXRYX1BVby1TR05rLV9HNUNxYTJqdW9yUnJDb21CR3hCVlNwc2xrZzh3SkJGZEplSlpvRk11OGZXZWk2UjBOS2ozWkl5M0REanZ4cFRjSWlfbWJqTldpR1ZVOEtIYTlRV0NVQXNaVnlwMzVveXgwREdlYlBobmxtdzVKMWNDVzFjMmFwbF9nYkNqSmRuNjJSYktNUmtBUQ?oc=5",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:34:57+08:00"
-  },
-  {
-   "title": "台股收跌1,926點、百檔跌停！外資大砍1,236億、期貨淨空單破10.5萬口",
-   "link": "https://tw.news.yahoo.com/%E5%8F%B0%E8%82%A1%E6%94%B6%E8%B7%8C1-926%E9%BB%9E-%E7%99%BE%E6%AA%94%E8%B7%8C%E5%81%9C-%E5%A4%96%E8%B3%87%E5%A4%A7%E7%A0%8D1-236%E5%84%84-073441583.html",
-   "source": "Yahoo股市",
-   "tag": "台股",
-   "time": "2026-11-25T15:34:41+08:00"
-  },
-  {
-   "title": "法人觀點：美股與科技股明年恐遭降評，Arkevium轉趨防禦布局並看好陸股",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQekZ2NE1SQ1ZHZHFaNG81RGg0N0JlM25jZGJJbmphX0dPMTZ1anRuXzN4Z1p3VWdlUHRIbUdFZDd3RDZGT0YxRmM0V0lUOS1KWmw2YmNWV1hiTXQzeXVrZlVsZTVqOVhveElTREcxVktLVGtienVXRXNHa2l4cXF3WGNaU2V6UExC?oc=5",
-   "source": "富聯網",
-   "tag": "美股",
-   "time": "2026-11-25T15:33:00+08:00"
-  },
-  {
-   "title": "《美股期指》15:30，小道瓊期跌236點，小Nasdaq100期跌474.5點",
-   "link": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxPUTZhWjh6RTJrOS10Y1A4ZW05WXVoT2pCRENfdXdPTkd1dlFld0V5a3JiSTh3LXZSLU9nVm9waU41eDVrNVZwWTZMTnBKM0pLZ0hScUUyLTFGVVkzYlBLTUFnYVM4WHpCS1ZZMUtxSkxfWXFQVmllOHJzdzNuUmhKTDB2LUhZV25n?oc=5",
-   "source": "富聯網",
-   "tag": "美股",
-   "time": "2026-11-25T15:33:00+08:00"
   }
  ],
  "blogs": [
+  {
+   "title": "富邦006208分割黃昭棠：投資降門檻、配置增彈性| 存股族愛ETF | 股市",
+   "link": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5hb1Y4TDBWNWtTbVhRdVJSbU1yX08tQUtNSXU4LUZWcWpaRUpMSG1DWE91Wk1wUERsYmZySERqeFZ4bmR5YU41QWYyVWpyUW5ETVh3?oc=5",
+   "source": "udn",
+   "tag": "",
+   "time": "2026-11-26T13:46:47+08:00"
+  },
   {
    "title": "川普帳戶是什麼？出生就發 1,000 美元？台灣未來帳戶是什麼？",
    "link": "https://www.stockfeel.com.tw/%e5%b7%9d%e6%99%ae%e5%b8%b3%e6%88%b6-530a-%e5%b8%b3%e6%88%b6-%e6%94%bf%e7%ad%96/",
@@ -5624,11 +5631,32 @@
    "time": "2026-11-26T11:30:00+08:00"
   },
   {
+   "title": "台股劇烈震盪跌破40k ETF爆量但藏高溢價風險 | 華視新聞",
+   "link": "https://news.google.com/rss/articles/CBMiVkFVX3lxTFAwdVljTXdTZXdjb3RBRnd4VXdVd0FzYlViU1VOMmJicmplek9aSDZmeC1kX3BCbHI0cnJlMkhjclFVck9YSlNaNlg0ZFZYRWVuc0RVdzNR?oc=5",
+   "source": "LINE TODAY",
+   "tag": "",
+   "time": "2026-11-26T10:05:55+08:00"
+  },
+  {
+   "title": "台股劇烈震盪跌破40k ETF爆量但藏高溢價風險- 財經",
+   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9wWXdJdHBJYVZDZlUtWC10cUxDeTdqNWpIc3hhNERIZTBGMXdzTWxJSXBZeW5pSDJZVmxXVkdONHEwcWY1NjM5LW1ZUGE0NXgzWDU4Vmw1Nkg5Q18wTUc0d3hfeWtJMVhBTms0c2lR?oc=5",
+   "source": "華視新聞網",
+   "tag": "",
+   "time": "2026-11-26T10:05:00+08:00"
+  },
+  {
    "title": "人民幣升值，基金會跟著漲嗎？人民幣計價基金與匯率風險解析｜豐雲學堂 2026 年 11 月",
    "link": "https://news.google.com/rss/articles/CBMiwgNBVV95cUxObFU3ZWNXNEh4Y01Ed3VWSVZXNEJhcWV5WHdic0tCd1pXRjNUc1J0Wmg5V1M5S3pBWWhkYmdLSzFxUGo3N3l0X1l3eV9rQ3RpeFZCYWpjTEJOM1Z3dm50bmNxNFRWZGNBMll6TGR5enJkSGl4V1hURldGUEJHTE5lRWtkNDZlVmtYWURBcUc2TkxMS05ON2s3S05tMWo5bWJhTVVLUGlPMnlBQTN6WFFLYnltcjFleGVRcHB6Y3U5Rk5ELUFWXzZQUzFiYWhtalBuMDN1WHdyY2RyaFlOa3RZbXk2NUdCNmprMDVBNzlpcDZOQjlHTFBnbkNEaTQwLUJRRUhDUjBqOXloZV9ZWmdyNWVaMGRhd0w4c1p0Znp1djBabE9adlVUUVhGcXB6SlA3dy1CaUNjME41MnFLT3p2VUltY1lTRUhGS0FSbnB6SVU0S0ZoSlJHWjE3dEF3NFRLTFVzc2kxMXdOUXl2RG9MYzJvZUh0dzNVeFN1UDVqRDZkSmx1RGVSZGk5Vk5pS1Jlbm56X2FMcEVRYlpjQ085ZlpDcVR1QlNZRDY4d2ZXUUZLX1JkcEFEcm5ENm9mdjNORWc?oc=5",
    "source": "永豐金證券",
    "tag": "",
    "time": "2026-11-26T09:24:25+08:00"
+  },
+  {
+   "title": "鋼與光的對話 台灣燈會明年在苗栗 東和鋼鐵「鋼鐵實驗場」提案曝光",
+   "link": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE5VLWpMQWpFMElBOVNzREs0c2EzZ0tWeEtSZXE0SklVT1NuSWhFYjF3ZkdqS1VmekNOYmRjM2NVLWJEalh2N1hvT1pOVDFRemlj0gFWQVVfeXFMT2lHcXNIN1NOQVRidm04V3RXU1lNNEpBOHpaczlyX1JWS1BpaUpqQ00tMUtBQjFscF9TMlh5X0RUQ3lyM0ZOUzJSSVNDU25tZXVqQlpZdnc?oc=5",
+   "source": "udn",
+   "tag": "",
+   "time": "2026-11-26T08:28:08+08:00"
   },
   {
    "title": "主動式 ETF 績效洗牌「回本難度」成投資人關注點",
@@ -5657,13 +5685,6 @@
    "source": "今周刊",
    "tag": "",
    "time": "2026-11-25T20:00:00+08:00"
-  },
-  {
-   "title": "台股劇烈震盪跌破40k ETF爆量但藏高溢價風險- 財經",
-   "link": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9kVWNsU2dwU29QUlJSTTR2VEdWZUsxZmFoNnJabGFXVTg4Z3VDU1g4UUNCLVBDY3k5MjJMOEk1bTZlX3Vfa1J2YTZfUDRILV81Z2RLRkx4c2REWVRhd1JZMWhBOV9ZLUw1Ym1QOEJR?oc=5",
-   "source": "華視新聞網",
-   "tag": "",
-   "time": "2026-11-25T19:40:00+08:00"
   },
   {
    "title": "巴逆逆點名「這1檔萬年牛皮股」高喊不會崩！網一看秒發抖：股東不排除提告",
@@ -5734,6 +5755,13 @@
    "source": "TVBS新聞",
    "tag": "",
    "time": "2026-11-25T13:12:00+08:00"
+  },
+  {
+   "title": "美國301調查結果出爐： 台灣擬議關稅最高15%， 部分商品... - 股市爆料同學會",
+   "link": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9UandFNE9ZdGVtVkhEUl9oR1h3LTdCdUs4N3NoZGFkZmlmUlZqWTg0N25UdDV2emdUR0dYN3R2TGFTa3p4LUlhMW5VR2x0bVRyZkVxYXJVYWg?oc=5",
+   "source": "CMoney",
+   "tag": "",
+   "time": "2026-11-25T12:54:06+08:00"
   },
   {
    "title": "1表看》存股族越跌越買！ETF受益人數逆勢暴增32萬正2、0050、00919…3類最受投資人青睞- 基金",
@@ -7911,13 +7939,6 @@
    "source": "ETtoday新聞雲",
    "tag": "",
    "time": "2026-11-12T14:53:00+08:00"
-  },
-  {
-   "title": "雙鴻(3324)受惠 GPU 與 ASIC 雙平台液冷需求同步放量-不敗教主陳重銘",
-   "link": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOME1XeFRTaTIzZmV4M1JBZHhNU2pjQkFoUE5WeEY2MnFlbXdudUMtR2pwRjYxNDJEZGtRSFoxbFlnRjZ0dTRaT1VsNDhFYm10eGdtSFhqa0pMOGdabmdJRlpHb2s4QTVXUGtBemdqRjJHd2RDNXNfM3N0Z094RXpqcDN3?oc=5",
-   "source": "CMoney投資網誌",
-   "tag": "",
-   "time": "2026-11-12T14:08:14+08:00"
   }
  ]
 }
